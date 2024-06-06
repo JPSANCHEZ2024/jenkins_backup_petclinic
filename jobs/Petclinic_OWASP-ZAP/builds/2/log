@@ -1,0 +1,66 @@
+Started by upstream project "[8mha:////4HXJYCHdKiT57M60xS04CHBVP5V8kWnqZ0Ll2eHd8qGWAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2A1JJkoI2ZyfFevqklqUX6AFdtVCvLAAAA[0mPetclinic_JMeter" build number [8mha:////4N7WHZVkKRz8bmBlFCPUNnRIMl+3nnAReo8djnKwznLaAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnH9rPwk/YDUkmSgjZnJ8V6+qSWpRfrGAJLLKynMAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Obtained Jenkinsfile_OWASP-ZAP from git https://gitlab.com/ramo8221914/petclinik.git
+[8mha:////4H3gpFGsvnklvu1TtbrBt2KzsrBJzieppeoGRYitvHpeAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4GhMEEWvoIuDBbBEbKx26tmLltlh+fs3iwxCi5pHmU32AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JAhunBlQ6g8Ns7iXxD1obON28bnzHrn6CiyGbNyf6tWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Petclinic_OWASP-ZAP
+[8mha:////4KnCQR+peol/+uqhDFBG2BM86poY2l2wpxokO3Tip5TDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KnWX1YueZaj6uwbV68jFmExrNCxodMKMgrrI4gR+WhtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GD6twJ6xyE/MHCGa5pxbe0AWzvqERnGBrM7gsg9E4Y4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ht2/ETuoWoowWi+Ei1US1K34i3tguE5TxWyjQaZGBgoAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Cloning the remote Git repository
+Cloning repository https://gitlab.com/ramo8221914/petclinik.git
+ > git init /home/azureuser/workspace/Petclinic_OWASP-ZAP # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 2c598a0b4d75c2dc7d9c2925cdd54327a97c6f9d (refs/remotes/origin/main)
+Commit message: "modify ip address"
+First time build. Skipping changelog.
+[8mha:////4DMPOsa3O1enptECSsAfp9K1sWj0z6MQnwjMNxguO5GUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BaFsEbaJCAsUmXbRSglHwAgbe0aI0VFdu6X01w56fbeAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Cs+yb9DLkZvr74SGg7Dn6uBVqBHQ7k+Q72pUeeUqInmAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HqZtRgGca2OKor/L0kt5IZv5FK2ELFinv2rzCEF2H1ZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FSGI0cV7w5xhqtYeelP9M6s2kze8KxxMEtGq94Llr7gAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4CngkOVgA770kahhTSyqKJO/EWkHIY2fIaQRCAAttt7AAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (OWASP-ZAP)
+[8mha:////4BLeHcWGe42lVBw8molXgsIZkpsi7giD5rwAD3kOJ0aJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4MC1cyneEQ4BTh4KctLsH7S9E7KNB94U3aRceITZ+MwrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4MKMIgvENLVPIM2fczRIyvaylSO1a8Aed82Bldu/eYNzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ owasp-zap -port 8081 -cmd -quickurl http://52.168.92.118:8082/vets.html -quickprogress -quickout /home/azureuser/report_owasp_zap.xml
+Found Java version 17.0.10
+Available memory: 3399 MB
+Using JVM args: -Xmx849m
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2c598a0b4d75c2dc7d9c2925cdd54327a97c6f9d # timeout=10
+1814 [main] INFO  org.parosproxy.paros.Constant - Copying default configuration to /home/azureuser/.ZAP/config.xml
+2252 [main] INFO  org.parosproxy.paros.Constant - Creating directory /home/azureuser/.ZAP/session
+2253 [main] INFO  org.parosproxy.paros.Constant - Creating directory /home/azureuser/.ZAP/dirbuster
+2253 [main] INFO  org.parosproxy.paros.Constant - Creating directory /home/azureuser/.ZAP/fuzzers
+2254 [main] INFO  org.parosproxy.paros.Constant - Creating directory /home/azureuser/.ZAP/plugin
+Accessing URL
+Using traditional spider
+[====================] 100% 
+Active scanning
+[===                 ] 19% |[=======             ] 38% /[===========         ] 58% -[=================   ] 86% \[====================] 100% 
+Attack complete
+Writing results to /home/azureuser/report_owasp_zap.xml
+[8mha:////4GCR0DTu9t+pU0k+EWU85nPcJNNblsEaVeUcqL2X/cgiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4N8hTR0m3zMhwcAdjHK6+Zs8GPhU/40myANzrdia3+t+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // script
+[8mha:////4IpD7atYE119C+Ygw/k6AMN4b7rPHXYWkbllePTc3PeIAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4FZFPJK7a2Y/KnlCaFzua5SlwxoTUTeTiabeKv2VlTGXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4D9+QlkPoFmv9kfk3xXJFVfiLWY6Q4yocbzlCwTRBFIEAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRaBEVreWGF5jEGDvWnbEvJBUv4mv8AYtIVGyx2tlmXm9Y5wRHSlZ4g4PD3DkRw2jLEhOl4RpoEp4uoiPMFIxQZlLUm9OCitjAkqqGlYSNwS5QdmgZttLrh26CRtucOZXvIKF2/R2eUMliZp34C3OC3W3sM+HP81cAc4wM9b4t1bYfF15Zm74AAAA=[0m[Pipeline] }
+[8mha:////4DdeiyTQVfb2Zl+CvJJxazOUQI0ACK6XhQygmmBaUZqPAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlHWd67D/AC8cymq+AAAA[0m[Pipeline] // withEnv
+[8mha:////4HUzKRD3tANSbrCwkk3YSlizBFn5XZWoaXwmgxDTAMkpAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8B+yNxE70AAAA=[0m[Pipeline] }
+[8mha:////4H+gS33XagDbHw1AFaFEoH16G+uKQUTsZWdBzLvc9+YbAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcBSGo1P70AAAA=[0m[Pipeline] // node
+[8mha:////4PTk5xkYsaZRNqjmYyeKqrUYgxFBYgaSiT4VU99tGkG0AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJE7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHbnNSdb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

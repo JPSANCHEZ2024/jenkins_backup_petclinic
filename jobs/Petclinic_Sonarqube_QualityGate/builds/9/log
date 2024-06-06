@@ -1,0 +1,515 @@
+Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Obtained Jenkinsfile_Sonarqube_QualityGate from git https://gitlab.com/ramo8221914/petclinik.git
+[8mha:////4H3gpFGsvnklvu1TtbrBt2KzsrBJzieppeoGRYitvHpeAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4GhMEEWvoIuDBbBEbKx26tmLltlh+fs3iwxCi5pHmU32AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IOIrp4Tt1Xpjvz9Z5ugaQpNmAiHYIHdOB36CUt71gfMAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklhvoANNh/MMcAAAA=[0mTarget1 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4KnCQR+peol/+uqhDFBG2BM86poY2l2wpxokO3Tip5TDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KnWX1YueZaj6uwbV68jFmExrNCxodMKMgrrI4gR+WhtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GD6twJ6xyE/MHCGa5pxbe0AWzvqERnGBrM7gsg9E4Y4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ht2/ETuoWoowWi+Ei1US1K34i3tguE5TxWyjQaZGBgoAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 4131834427a6e7063be9ebee151ab0fb17aa5c4f (refs/remotes/origin/main)
+Commit message: "modify title"
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4131834427a6e7063be9ebee151ab0fb17aa5c4f # timeout=10
+ > git rev-list --no-walk 4131834427a6e7063be9ebee151ab0fb17aa5c4f # timeout=10
+[8mha:////4DMPOsa3O1enptECSsAfp9K1sWj0z6MQnwjMNxguO5GUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BaFsEbaJCAsUmXbRSglHwAgbe0aI0VFdu6X01w56fbeAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Cs+yb9DLkZvr74SGg7Dn6uBVqBHQ7k+Q72pUeeUqInmAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HqZtRgGca2OKor/L0kt5IZv5FK2ELFinv2rzCEF2H1ZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FSGI0cV7w5xhqtYeelP9M6s2kze8KxxMEtGq94Llr7gAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4CngkOVgA770kahhTSyqKJO/EWkHIY2fIaQRCAAttt7AAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4Bp4XpSIVrwx6oST1p5Y64kTOXDx0X3Xsg3qauopU+pGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4F+Rq/p1pOF+lt1ScD7SeuCLSv1H+v9fVYOqcBC7ZNOMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4H+73ZssuHxU2qAbuvcbrkif7MJxTPKU16cfp2tCQdkbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4JIQ9WbcNYTGvEMYmOsi5CW7oxJkIZM3ROtxm3/WIDKgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4MdecQqTuotUJYztRAMJbJ16zwOml2bBQl7DScFbNBRfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4OLdFl7vA6cWhbrkikYuPfkqeDXOCe2Xk4KcqZq3RJ0uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4MEVNbI6ikfHDBXadcjA5Ri2tAQPyzqx/XpMER17qgVbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4Emh3jSNin9WSNf7QB27Don/RFoEk2F2rojo6cWy41ABAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Verification)
+[8mha:////4IZ+frtm7Walp4sqSnymQjYMraA+uQ+v97qluQtkby72AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4M4qz0VpH/gyOeD5Nn+l02NiFLA1Iftz+aTRD6JTn3DYAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4Jhg5CX3cTMt1HIuWUAjg3Ad20ItZ9SNFu6xIWrs5mcFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4NFYS9cOuMS9JAWb5tPJlSP7gnxaQq4BvQtCR0pWfSQlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4JS38yI7Xxulq0DLN0ZzR7ZxO8gzEcsWkOmjObA2lLC7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ whoami
+azureuser
+[8mha:////4JxHu18Jyp+oD1jdOO41xk15QlSrnB/tLY7ynDBxJeR6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ pwd
+/home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4OavsLSc3YbB9YXfZXxgR6JATMYW+uwzuKHQOH2iHyYeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU2/2ndm8FmBaQvgAAAA==[0m[Pipeline] }
+[8mha:////4MxbydfnwxWGrqs8daAFWH0NumDCrpflChx2CbIxFQ6PAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQE2e00svgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4KiDKnOnqN9TaBhrAfgFUVioDoJFXfN0JiKt9d3RUKXYAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5trvPsXVX92+AAAA[0m[Pipeline] }
+[8mha:////4PrRG7U5sQPQWJtD+/GJfW406xn8lZxKuWBmtnFdUB97AAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY5dpvP/Y2BGG+AAAA[0m[Pipeline] // stage
+[8mha:////4CHNH6l4/gpDSSUPCtmo6ebdgK7uxGLnbzQcD83MIM0vAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQED/Pa2wgAAAA==[0m[Pipeline] stage
+[8mha:////4BTILYQj5uhxuALs+b/RuDTp/Xf2MalNu9KvFLDLw3BrAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Start SonarQube)
+[8mha:////4JtJ7GP3Ljx2Iz8DRSkFes45dITAApQrlUY/VTgPDj33AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] node
+Running on [8mha:////4JAhunBlQ6g8Ns7iXxD1obON28bnzHrn6CiyGbNyf6tWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4J69r+m/KDNXuRnRXl8UtP4tGip+99J6fu+KGlGcs54iAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] {
+[8mha:////4PNusWbibXzVZkQMYL4jNMwi1XTTMfT8YGZykAq4/SEVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision 4131834427a6e7063be9ebee151ab0fb17aa5c4f (refs/remotes/origin/main)
+Commit message: "modify title"
+[8mha:////4NNfWuco4ORkHLLnZx898jccy9eGi0ZUL7wbVXx3jEAfAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIgBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADoYRoAwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4MYS8GJsrOp6QnhwqmH+FybDjWLGpgrfVwZjQOx2hn/kAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4GSVVK+mIEBpovf4iJO9gxd2S/0TnQRYaPJRxKpnJwowAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] tool
+[8mha:////4KNYvYC4lgYUQChZcefO3kVxjnneZJqGqs2boJi+nmNLAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4PDWb01L8NoC9/au8n0ScOTMlMpx7I1R3wmg32iobxyjAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm988XDYwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4BxO4n/B7DMt/T1SA30EiBOl0ZT8ocOVLUiddRTMGnSPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4M5Lp63T1XZUY8gEsUnINT8QlMozR9dvEFPTbBf5Xa55AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] echo
+SonarQube Start
+[8mha:////4K0ZUSI93cYh0BAnRbECbrdhyGhyH43jUfwgkDRCwdYyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BjFz8hy+AAAA[0m[Pipeline] sh
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4131834427a6e7063be9ebee151ab0fb17aa5c4f # timeout=10
++ sudo docker ps --filter name=sonarqube
++ sudo docker start sonarqube
+sonarqube
+[8mha:////4E/tpobft7ia1RGpHF5nMiSSMzG5NDdBn5QtXfmndSzTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8SMZoe+AAAA[0m[Pipeline] }
+[8mha:////4KlM703G6lFhlwGZtf7v5BAQ+MQNUNN/vSyXTEaZk2IuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHQr/uYvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4L70OQJRFArYjKwZSTCZmnz3nRqLHHA6cpvZ3gizKDmZAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgAQSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAFlI6Zb4AAAA=[0m[Pipeline] }
+[8mha:////4FynNoxqlwIlvZHqgg/pOPAIBwdqqLiNyIR27LArdX1eAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgAQSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AUv3TBL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4DTsA8Ww3XTfKyzAHdo38FtEg3yIflIucITQc3G8cTVkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/bT4EhvgAAAA==[0m[Pipeline] }
+[8mha:////4P8zJZ76/NVlIgmJJh5ZFT9zM/wMknWwikMDZjXIQhIOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtdu/wExJf7XvgAAAA==[0m[Pipeline] // node
+[8mha:////4BCo1kN/C9Ns4UVwpc0fyAbCO08lqJI/B421diC4ZyKvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRiqgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QE3Y8aCvgAAAA==[0m[Pipeline] }
+[8mha:////4H0mwXJhc97kNYbmFenevsqYWrWt/BwoHrYrA+333xPfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBVEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QEPIVVzvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KgKZoehjMzCBd5knSdWeHRUI1vCCMw6aQarCwZ3oKNBAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEg1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bbvt5Vm+cGnoewgAAAA==[0m[Pipeline] stage
+[8mha:////4BxDK0LcFF6Avkp0Zpy8KlyIvysmexCwIrYWcyYLSPF2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] { (Scan)
+[8mha:////4D8Sv1gTPtSwrW/4Gn+Ac4ZFk/ObqsKxtvJEAGzRFMbHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] node
+Running on [8mha:////4JAhunBlQ6g8Ns7iXxD1obON28bnzHrn6CiyGbNyf6tWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4DWoO4qZVDe37NG2CELYvpxqCOkNcsWz5A2F29Ff2uYhAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] {
+[8mha:////4NwWGE9A/PEcx/CQGfB9TQCcyv7Srt8ZI0Jk8wEbQ1TGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBkhu+A6+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+Checking out Revision 4131834427a6e7063be9ebee151ab0fb17aa5c4f (refs/remotes/origin/main)
+Commit message: "modify title"
+[8mha:////4AWxvCc8x/KaJxFVwzvKZYNZ/w5Y5gYpPIiD9EOUCXV9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AiEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+YlQ+TCAAAA[0m[Pipeline] withEnv
+[8mha:////4J1mrQBvlrdc8GTp5PfXHVHHfTpcYqLV9o46pM8MbqqqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] {
+[8mha:////4PqmVWmi9arU02UsgwNOEiGvEbvy4HNavKz2f9wPQ8haAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] tool
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4131834427a6e7063be9ebee151ab0fb17aa5c4f # timeout=10
+[8mha:////4KWhkjytbQCt3es7YaCn/8gg3wKqbywR3e6MvNiQe+F8AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAfgesrL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4GyL67/UjIhJ4RZJsMbKX31eCYn1FGqQg6WgWR5B7eMiAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSEBREunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKU23223ebzrN7b6MjnwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4D5hRcX/GI5eXfe+wmsoEzBxUFETqMWTYewxq4XffvuNAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4MTRrzwD6YJlOZAqDkQyhefhN7ex9UUUUd9ing6OhOflAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] echo
+Scan Start
+[8mha:////4EGuU3vhQc1zYTT87UZLcptK+o7nLH/I9haGLfkQ1vm0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDxdS/G/CAAAA[0m[Pipeline] script
+[8mha:////4CosVgSiD2DaGS5f9UHsOJtGoNMOTctm93FY7ENyH6xUAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0ogtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+urdAcIAAAA=[0m[Pipeline] {
+[8mha:////4P0fCktKkJE5ykNQeHgcmXXqCi06YC8Kh2bLjNIvtGjpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonarqube1
+[8mha:////4Fs4yp+Ajj+SPGhv9c9BijybZAguxpPDPFcKUKcTzsTGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] {
+[8mha:////4GlBpt3FGdk6YmylNcL3eSXUEDLzAM8ZQFzgHIqA00TKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] sh
++ mvn clean compile sonar:sonar
+[INFO] Scanning for projects...
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/plugins/maven-metadata.xml
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/mojo/maven-metadata.xml
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/mojo/maven-metadata.xml
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/plugins/maven-metadata.xml
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml
+[WARNING] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:3.11.0.3922 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.11.0.3922: SonarQube plugin was moved to SonarSource organisation
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 2.3.1.BUILD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ spring-petclinic ---
+[INFO] Deleting /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] 
+[INFO] --- spring-javaformat:0.0.22:validate (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- jacoco:0.8.5:prepare-agent (default) @ spring-petclinic ---
+[INFO] argLine set to -javaagent:/home/azureuser/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/jacoco.exec
+[INFO] 
+[INFO] --- git-commit-id:3.0.1:revision (default) @ spring-petclinic ---
+[INFO] dotGitDirectory /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git
+[INFO] Collected git.build.user.name with value 
+[INFO] Collected git.build.user.email with value 
+[INFO] Using environment variable based branch name. CI_COMMIT_REF_NAME = null
+[INFO] Detected that running on CI environment, but using repository branch, no GIT_BRANCH detected.
+[INFO] Collected git.branch with value 4131834427a6e7063be9ebee151ab0fb17aa5c4f
+[INFO] --always = true
+[INFO] --dirty = -dirty
+[INFO] --abbrev = 7
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] evalCommit is [4131834427a6e7063be9ebee151ab0fb17aa5c4f]
+[INFO] Collected git.commit.id.describe with value 4131834
+[INFO] Collected git.commit.id.describe-short with value 4131834
+[INFO] Collected git.commit.id with value 4131834427a6e7063be9ebee151ab0fb17aa5c4f
+[INFO] Collected git.commit.id.abbrev with value 4131834
+[INFO] Collected git.dirty with value false
+[INFO] Collected git.commit.user.name with value Juan Pedro Sanchez Mercado
+[INFO] Collected git.commit.user.email with value jpsanchez_2@hotmail.com
+[INFO] Collected git.commit.message.full with value modify title
+[INFO] Collected git.commit.message.short with value modify title
+[INFO] Collected git.commit.time with value 2024-05-24T14:25:54+0000
+[INFO] Collected git.remote.origin.url with value https://gitlab.com/ramo8221914/petclinik.git
+[INFO] Collected git.tags with value 
+[INFO] evalCommit is [4131834427a6e7063be9ebee151ab0fb17aa5c4f]
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] Collected git.closest.tag.name with value 
+[INFO] evalCommit is [4131834427a6e7063be9ebee151ab0fb17aa5c4f]
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] Collected git.closest.tag.commit.count with value 
+[INFO] Collected git.total.commit.count with value 146
+[ERROR] Failed to perform fetch
+org.eclipse.jgit.api.errors.TransportException: https://gitlab.com/ramo8221914/petclinik.git: Authentication is required but no CredentialsProvider has been registered
+    at org.eclipse.jgit.api.FetchCommand.call (FetchCommand.java:254)
+    at pl.project13.maven.git.JGitProvider.fetch (JGitProvider.java:352)
+    at pl.project13.maven.git.JGitProvider.getAheadBehind (JGitProvider.java:339)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$17 (GitDataProvider.java:174)
+    at pl.project13.maven.git.GitDataProvider.lambda$memoize$23 (GitDataProvider.java:272)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$18 (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitDataProvider.maybePut (GitDataProvider.java:255)
+    at pl.project13.maven.git.GitDataProvider.loadGitData (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitDataWithJGit (GitCommitIdMojo.java:604)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitData (GitCommitIdMojo.java:563)
+    at pl.project13.maven.git.GitCommitIdMojo.execute (GitCommitIdMojo.java:458)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: org.eclipse.jgit.errors.TransportException: https://gitlab.com/ramo8221914/petclinik.git: Authentication is required but no CredentialsProvider has been registered
+    at org.eclipse.jgit.transport.TransportHttp.connect (TransportHttp.java:537)
+    at org.eclipse.jgit.transport.TransportHttp.openFetch (TransportHttp.java:362)
+    at org.eclipse.jgit.transport.FetchProcess.executeImp (FetchProcess.java:138)
+    at org.eclipse.jgit.transport.FetchProcess.execute (FetchProcess.java:124)
+    at org.eclipse.jgit.transport.Transport.fetch (Transport.java:1271)
+    at org.eclipse.jgit.api.FetchCommand.call (FetchCommand.java:243)
+    at pl.project13.maven.git.JGitProvider.fetch (JGitProvider.java:352)
+    at pl.project13.maven.git.JGitProvider.getAheadBehind (JGitProvider.java:339)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$17 (GitDataProvider.java:174)
+    at pl.project13.maven.git.GitDataProvider.lambda$memoize$23 (GitDataProvider.java:272)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$18 (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitDataProvider.maybePut (GitDataProvider.java:255)
+    at pl.project13.maven.git.GitDataProvider.loadGitData (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitDataWithJGit (GitCommitIdMojo.java:604)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitData (GitCommitIdMojo.java:563)
+    at pl.project13.maven.git.GitCommitIdMojo.execute (GitCommitIdMojo.java:458)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+[INFO] Collected git.local.branch.ahead with value NO_REMOTE
+[INFO] Collected git.local.branch.behind with value NO_REMOTE
+[INFO] Collected git.build.time with value 2024-05-27T08:15:59+0000
+[INFO] Collected git.build.version with value 2.3.1.BUILD-SNAPSHOT
+[INFO] Collected git.build.host with value Target3
+[INFO] Collected git.build.number with value 
+[INFO] Collected git.build.number.unique with value 
+[INFO] including property git.tags in results
+[INFO] including property git.build.version in results
+[INFO] including property git.branch in results
+[INFO] including property git.build.host in results
+[INFO] including property git.build.number in results
+[INFO] including property git.commit.id in results
+[INFO] including property git.commit.user.email in results
+[INFO] including property git.build.number.unique in results
+[INFO] including property git.local.branch.behind in results
+[INFO] including property git.build.user.name in results
+[INFO] including property git.dirty in results
+[INFO] including property git.closest.tag.commit.count in results
+[INFO] including property git.commit.user.name in results
+[INFO] including property git.commit.id.abbrev in results
+[INFO] including property git.commit.id.describe-short in results
+[INFO] including property git.total.commit.count in results
+[INFO] including property git.commit.id.describe in results
+[INFO] including property git.build.user.email in results
+[INFO] including property git.commit.message.short in results
+[INFO] including property git.closest.tag.name in results
+[INFO] including property git.local.branch.ahead in results
+[INFO] including property git.commit.time in results
+[INFO] including property git.build.time in results
+[INFO] including property git.commit.message.full in results
+[INFO] including property git.remote.origin.url in results
+[INFO] Writing properties file to [/home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/git.properties] (for module petclinic)...
+[INFO] 
+[INFO] --- spring-boot:2.3.1.RELEASE:build-info (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- wro4j:1.8.0:run (default) @ spring-petclinic ---
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/me/n4u/sass/sass-gems/maven-metadata.xml
+Downloading from spring-milestones: https://repo.spring.io/milestone/me/n4u/sass/sass-gems/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/me/n4u/sass/sass-gems/maven-metadata.xml
+[INFO] /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/src/main/less
+[INFO] Executing the mojo: 
+[INFO] Wro4j Model path: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/src/main/wro/wro.xml
+[INFO] targetGroups: null
+[INFO] minimize: true
+[INFO] ignoreMissingResources: null
+[INFO] parallelProcessing: false
+[INFO] buildDirectory: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] destinationFolder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] cssDestinationFolder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/static/resources/css
+[INFO] The following groups will be processed: [petclinic]
+[INFO] folder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/static/resources/css
+[INFO] processing group: petclinic.css
+[WARNING] Less warnings are:
+[WARNING] 10:1 Cannot link source map. Css result location is not know and could not be deduced from input less source..
+[INFO] file size: petclinic.css -> 152399 bytes
+[INFO] /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/static/resources/css/petclinic.css (152399 bytes)
+[INFO] folder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] processing group: petclinic.js
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ spring-petclinic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 39 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ spring-petclinic ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 2.3.1.BUILD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar:3.11.0.3922:sonar (default-cli) @ spring-petclinic ---
+[INFO] 08:16:14.937 Java 17.0.10 Private Build (64-bit)
+[INFO] 08:16:14.937 Linux 6.5.0-1021-azure (amd64)
+[INFO] 08:16:15.084 User cache: /home/azureuser/.sonar/cache
+[INFO] 08:16:15.251 Communicating with SonarQube Server 10.5.1.90531
+[INFO] 08:16:15.278 Default locale: "en", source code encoding: "UTF-8"
+[INFO] 08:16:16.536 Load global settings
+[INFO] 08:16:16.924 Load global settings (done) | time=389ms
+[INFO] 08:16:16.985 Server id: 147B411E-AY-WmIO_8fKYE-MpiNZA
+[INFO] 08:16:16.995 User cache: /home/azureuser/.sonar/cache
+[INFO] 08:16:17.016 Loading required plugins
+[INFO] 08:16:17.016 Load plugins index
+[INFO] 08:16:17.203 Load plugins index (done) | time=187ms
+[INFO] 08:16:17.203 Load/download plugins
+[INFO] 08:16:17.315 Load/download plugins (done) | time=112ms
+[INFO] 08:16:18.071 Process project properties
+[INFO] 08:16:18.092 Process project properties (done) | time=20ms
+[INFO] 08:16:18.104 Project key: org.springframework.samples:spring-petclinic
+[INFO] 08:16:18.105 Base dir: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[INFO] 08:16:18.105 Working dir: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/sonar
+[INFO] 08:16:18.121 Load project settings for component key: 'org.springframework.samples:spring-petclinic'
+[INFO] 08:16:18.197 Load project settings for component key: 'org.springframework.samples:spring-petclinic' (done) | time=76ms
+[INFO] 08:16:18.291 Load quality profiles
+[INFO] 08:16:19.156 Load quality profiles (done) | time=865ms
+[INFO] 08:16:19.181 Auto-configuring with CI 'Jenkins'
+[INFO] 08:16:19.328 Load active rules
+[INFO] 08:16:36.359 Load active rules (done) | time=17031ms
+[INFO] 08:16:36.395 Load analysis cache
+[INFO] 08:16:36.472 Load analysis cache (1.7 kB) | time=78ms
+[INFO] 08:16:36.629 Preprocessing files...
+[INFO] 08:16:36.971 2 languages detected in 37 preprocessed files
+[INFO] 08:16:36.971 0 files ignored because of scm ignore settings
+[INFO] 08:16:36.976 Loading plugins for detected languages
+[INFO] 08:16:36.977 Load/download plugins
+[INFO] 08:16:37.008 Load/download plugins (done) | time=31ms
+[INFO] 08:16:37.193 Inconsistent constructor declaration on bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@77b6d94c-org.sonar.scanner.issue.IssueFilters': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.sonar.scanner.issue.IssueFilters(org.sonar.api.batch.fs.internal.DefaultInputProject)
+[INFO] 08:16:37.232 Load project repositories
+[INFO] 08:16:37.310 Load project repositories (done) | time=78ms
+[INFO] 08:16:37.346 Indexing files...
+[INFO] 08:16:37.350 Project configuration:
+[INFO] 08:16:37.368 37 files indexed
+[INFO] 08:16:37.371 Quality profile for java: Sonar way
+[INFO] 08:16:37.374 Quality profile for xml: Sonar way
+[INFO] 08:16:37.375 ------------- Run sensors on module petclinic
+[INFO] 08:16:37.520 Load metrics repository
+[INFO] 08:16:37.600 Load metrics repository (done) | time=80ms
+[INFO] 08:16:39.736 Sensor JavaSensor [java]
+[INFO] 08:16:39.750 Configured Java source version (sonar.java.source): 8, preview features enabled (sonar.java.enablePreview): false
+[INFO] 08:16:39.839 Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[INFO] 08:16:39.840 Using ECJ batch to parse 25 Main java source files with batch size 43 KB.
+[INFO] 08:16:40.736 Starting batch processing.
+[INFO] 08:16:41.519 The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[INFO] 08:16:44.833 100% analyzed
+[INFO] 08:16:44.833 Batch processing: Done.
+[INFO] 08:16:44.838 Did not optimize analysis for any files, performed a full analysis for all 25 files.
+[INFO] 08:16:44.843 Using ECJ batch to parse 11 Test java source files with batch size 43 KB.
+[INFO] 08:16:44.866 Starting batch processing.
+[INFO] 08:16:46.151 100% analyzed
+[INFO] 08:16:46.151 Batch processing: Done.
+[INFO] 08:16:46.155 Did not optimize analysis for any files, performed a full analysis for all 11 files.
+[INFO] 08:16:46.155 No "Generated" source files to scan.
+[INFO] 08:16:46.155 Sensor JavaSensor [java] (done) | time=6420ms
+[INFO] 08:16:46.155 Sensor SurefireSensor [java]
+[INFO] 08:16:46.156 parsing [/home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/surefire-reports]
+[INFO] 08:16:46.157 Sensor SurefireSensor [java] (done) | time=2ms
+[INFO] 08:16:46.157 Sensor XML Sensor [xml]
+[INFO] 08:16:46.179 1 source file to be analyzed
+[INFO] 08:16:46.635 1/1 source file has been analyzed
+[INFO] 08:16:46.635 Sensor XML Sensor [xml] (done) | time=478ms
+[INFO] 08:16:46.635 Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 08:16:46.636 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] 08:16:46.637 No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] 08:16:46.637 Sensor JaCoCo XML Report Importer [jacoco] (done) | time=2ms
+[INFO] 08:16:46.637 Sensor IaC Docker Sensor [iac]
+[INFO] 08:16:46.657 0 source files to be analyzed
+[INFO] 08:16:46.809 0/0 source files have been analyzed
+[INFO] 08:16:46.811 Sensor IaC Docker Sensor [iac] (done) | time=174ms
+[INFO] 08:16:46.811 Sensor TextAndSecretsSensor [text]
+[INFO] 08:16:46.811 Available processors: 1
+[INFO] 08:16:46.812 Using 1 thread for analysis.
+[INFO] 08:16:47.848 37 source files to be analyzed
+[INFO] 08:16:48.223 37/37 source files have been analyzed
+[INFO] 08:16:48.223 Sensor TextAndSecretsSensor [text] (done) | time=1412ms
+[INFO] 08:16:48.231 ------------- Run sensors on project
+[INFO] 08:16:48.288 Sensor Zero Coverage Sensor
+[INFO] 08:16:48.320 Sensor Zero Coverage Sensor (done) | time=32ms
+[INFO] 08:16:48.321 Sensor Java CPD Block Indexer
+[INFO] 08:16:48.396 Sensor Java CPD Block Indexer (done) | time=75ms
+[INFO] 08:16:48.426 CPD Executor 12 files had no CPD blocks
+[INFO] 08:16:48.426 CPD Executor Calculating CPD for 13 files
+[INFO] 08:16:48.451 CPD Executor CPD calculation finished (done) | time=20ms
+[INFO] 08:16:48.458 SCM revision ID '4131834427a6e7063be9ebee151ab0fb17aa5c4f'
+[INFO] 08:16:48.656 Analysis report generated in 161ms, dir size=363.9 kB
+[INFO] 08:16:48.878 Analysis report compressed in 221ms, zip size=124.1 kB
+[INFO] 08:16:48.999 Analysis report uploaded in 112ms
+[INFO] 08:16:49.001 ANALYSIS SUCCESSFUL, you can find the results at: http://52.168.88.189:9000/dashboard?id=org.springframework.samples%3Aspring-petclinic
+[INFO] 08:16:49.001 Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] 08:16:49.001 More about the report processing at http://52.168.88.189:9000/api/ce/task?id=fea677fc-8e14-46ed-8037-8f237fa7f6f2
+[INFO] 08:16:49.067 Analysis total time: 31.649 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  59.410 s
+[INFO] Finished at: 2024-05-27T08:16:49Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4ExGQgnZbvBXBmuZSIJSiXExxIou6mWY6rPWl/pnN5sMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+[8mha:////4JyreEHOdAsL0Hf1UfSnjhMyxarrLPoP1sSyqXmxYem/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFCQkNvvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4OnTpkHJowv3fgd+wbH+j3v65nSRunwpo1+rgDuCv0cDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRKEKBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF52Oeq6w96ANCevgAAAA==[0m[Pipeline] }
+[8mha:////4EkUd3uG7sRb+9nTPR12WkXU+ho0toQYOpunPitbIQG1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9lgoXMvgAAAA==[0m[Pipeline] // script
+[8mha:////4PUOBTjpB8Whib/8u/hQTUoytUDR0E8oS0FzHXxyRN5iAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w/oF+M4vgAAAA==[0m[Pipeline] }
+[8mha:////4AX/d1G7G1gBOzq6gSexatLNClRFYZw5eKenVt5fPdwhAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQEFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334A2/S4hL4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4AtM4te2ug+Bx394Yt+5HQUWjcjXzfNaTJI3EpgfpAVAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ltf28AE+DNO+vgAAAA==[0m[Pipeline] }
+[8mha:////4IvBSqCuWcstLjnEZL10UnSK+NCBCP9Phu20sD8vggEuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpUJAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEN74gCvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MP6SukE0AocTVRnCM+yWaRvU7mvCNAB06BzkYmorkxIAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8ZFQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7m2uw/fcGYUvgAAAA==[0m[Pipeline] }
+[8mha:////4O/JZYDCI9CaN6oZ1H0bHXaps8x2u8NKY9zhrO6yhPBgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRQghqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QHA8jNGvgAAAA==[0m[Pipeline] // node
+[8mha:////4G/RViib0aXK/6HodhXOjk0z3lQWV1eMhiKvUwQKFtWPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330Ad+Nz4L4AAAA=[0m[Pipeline] }
+[8mha:////4JYGyfS+fSieCNCCrSnPNPF6TWKJyjpPGSssGBsH+Qd7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUh22u/e4DcaVLtb4AAAA=[0m[Pipeline] // stage
+[8mha:////4AwBuYXGcnPIIz/RDPGoHzVNPLPAtrZFq0jyixa36YbTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMIFQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3+2y77edZvQH5qPG0wgAAAA==[0m[Pipeline] stage
+[8mha:////4Jwcyia2Vrno+h9ihuqK2CawGGt2lyuMfGtdlLjypfk8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] { (Quality gate)
+[8mha:////4DyOiq815cdDmecBo2VdY7pCNjv14J6oqkDM0IP1xIYgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADxKa4dwgAAAA==[0m[Pipeline] node
+Running on [8mha:////4JAhunBlQ6g8Ns7iXxD1obON28bnzHrn6CiyGbNyf6tWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4G1cIxbQRXXHwFvUeeKIp9r9SlJDMgzaStZJHwsIQ2J2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AQkJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADX78n/wgAAAA==[0m[Pipeline] {
+[8mha:////4NLDDmTZNz9Pvp8zX5kUBwvb9NwIGjSN0t55C5TyTBALAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNxbD1rW+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+Checking out Revision 4131834427a6e7063be9ebee151ab0fb17aa5c4f (refs/remotes/origin/main)
+Commit message: "modify title"
+[8mha:////4DQ6LjJVBhFuPXw8SBv/vy/lmIpiXkC7+MvvicTt2MO+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDxyRj3PCAAAA[0m[Pipeline] withEnv
+[8mha:////4H8gF7DAyF7gYuXgydOKNdMcTBeYo0yBE4jdCGDBVOE0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pBJiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPCJq12sIAAAA=[0m[Pipeline] {
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4131834427a6e7063be9ebee151ab0fb17aa5c4f # timeout=10
+[8mha:////4DrcZzFFSrleWtWFUKBB6fekg6CjFFbmuzuStI1jVUmBAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxnGsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DGb6ZU74AAAA=[0m[Pipeline] tool
+[8mha:////4Hy4sL878xEqnGTnCu7dboiqgxAMse5CUQfYeTfRxYMhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhDEJUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMPsEZV3nOuz9B2dvmYO+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4LW6vtvmKPMCj/SwyuYqZTKCxIWlwMCzlWb/wXWh4Xl2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbEWIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrN7I0NcjCAAAA[0m[Pipeline] withEnv
+[8mha:////4DQAR7/gsn21Ypz2CvAyPZKaTmBqlzoHtU33U0OTGC8wAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] {
+[8mha:////4DS20pGql3Che+X1LOaDe4h/DWqG0MFLrfMcxoQTCAfZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN3RjbsC+AAAA[0m[Pipeline] echo
+Quality gate Start
+[8mha:////4Fcy5xf1++5szqjerF5YwXHlZilm2dmofGB70m2Mm8mKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGz9S+PvgAAAA==[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'fea677fc-8e14-46ed-8037-8f237fa7f6f2' on server 'sonarqube1'
+SonarQube task 'fea677fc-8e14-46ed-8037-8f237fa7f6f2' status is 'IN_PROGRESS'
+SonarQube task 'fea677fc-8e14-46ed-8037-8f237fa7f6f2' status is 'SUCCESS'
+SonarQube task 'fea677fc-8e14-46ed-8037-8f237fa7f6f2' completed. Quality gate is 'OK'
+[8mha:////4Kmjf+b+HILr1jUveQ0hHfCLqPYZmKOgxDvojWt840GcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g1Jkx9TvgAAAA==[0m[Pipeline] }
+[8mha:////4LkrqPfPvaxSPWDFL/qikeoVqRAVEmZYNmpD8ivFY7JfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFdsIJMvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NOn/fqu3aluQYui0MNwZt/6QDqWpeC8d1ftZCR73HT5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCUJUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzsc9X1Bx3qGee+AAAA[0m[Pipeline] }
+[8mha:////4ECvJteo4XgZXsAPKKju1wFXSIHxLtVAU+Pb0+bSP3OeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCUJUaa00vMDEh3Fi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTCiRxosxc4K70aTl5g4DFfHk+j5IjqmyA5Fi1PLGpsFW04IS4oSVhI2SJ3jaMkk2MpePVTlFJnqnEL+jhJKq+/whEJmc1IhfWEOsLuNOjL9PH8FMHufoDzUuer9B1lF8Ia+AAAA[0m[Pipeline] // withEnv
+[8mha:////4LhcGN/9WFzRV1Q9jzdga5a9Hk6io8G2bZ+cTQoghVv8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIREhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wHQ96KjvgAAAA==[0m[Pipeline] }
+[8mha:////4LjKQYs4N/sSiF9/1iQkcgCRz40bOUI2b/3SSOfMo2otAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6Jg4mBimFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBS7qmLID/sPy/kAir8AAAA=[0m[Pipeline] // node
+[8mha:////4MCAza6DhnqgyBiP1GA5jtz4a4n1yOCV7XgC43vKzgr5AAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JIXEwMk2vD4hdUWmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jK0Tgx9temKi0F89TaKji2gJI3kjGjM1pM1pwYbYwLIsh0LC2mDrKTq0DBvZqYcqvUJbnjkkd5SQO32HJ2QylVkF/sIcYHsbdST8df4GYB4GhqLaVQz5Yf8Bzb84378AAAA=[0m[Pipeline] }
+[8mha:////4OAyYYH8qe1/Ovx39QR8dNG8J2KIYKsVw2Zr1SfA4YGzAAAApR+LCAAAAAAAAP9tjTESgjAQRZcwFraWHiIolTMOlW2GxhPEEGMgs4vJIlSeyKt5BxmZsfJX/73mvd6wShEqik62FjuPyXjZh8HNT44Uu2ugUbZ0kYYwUbCytmNNjT0tWBNbWJYJyBWsLZpAyaNj2KhWP3QRNLrizHF2RwXCN3d4QqbmMuvIX5gibG9Dkwh/nb8BmPqeId/vSgZxKD/1/asuvwAAAA==[0m[Pipeline] // stage
+[8mha:////4H7xDqwJoeKBXYP9iV9cPOGjxebytKnXgYMMLFhbBwwaAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxFkrByHyjZD4wkiiTGQ2cVkESpP5NW8gxmZsfJX/73mvd6wigFqClZ0BnuHsXVi8KNNT0wU+qunSXR0ES1hJG9EY6aGtDkt2BAbWJblUEhYG2w9RYeWYSM79VClV2jLM4fkjhJyp+/whEymMqvAX5gDbG+jjoS/zt8AzMPAUFS7PUNeHT6RTOejvwAAAA==[0m[Pipeline] }
+[8mha:////4KEmCo6ClmABfRN1FZT/lhUpA2GgkykjoDCShDHEhUUcAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JI4mBimFwbFr+g0loLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYWydGPxo0xMThf7qaRIdXURLGMkb0ZipIW1OCzbEBpZlORQS1gZbT9GhZdjITj1U6RXa8swhuaOE3Ok7PCGTqcwq8BfmANvbqCPhr/M3APMwMBTVbs+QV4cPv0zlyb8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4CanSdKhX0aqUBxaPf/JfsrTRxucX1seckShQqnyGLIPAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGksHKsbDM0niCSGAOZ3ZgshsoTeTXvICMzVv7qv9e81xtWKcKRohW9wcFh6pwIfrTzE5nicPWURU8X0REm8ka0JrekzWnBltjAsqKESsLaYOcpObQMG9mrh6q9QlufOc7uIKF0+g5PKORcZhX5C1OE7W3UifDX+RuAKQSGqtntGcqm+QC+J2V7vwAAAA==[0m[Pipeline] }
+[8mha:////4GLJhjVU+XBARvZZjrHJDSsIhOc9wS/EhBiI9mBPiDwRAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGgsXGsaDM0niAmMQYyu5gsQuWJvJp3kJEZK3/132ve6w2bFOFE0YnOYu8xaS+GMLrliYlifw00iY4uQhMmCla0dmrJ2GbFltjCuiyHQsLWog6UPDqGnezUQ5VBoSvPHBd3lJB7c4cnZHIps4r8hTnC/jaaRPjr/A3APAwMRV0dGPK6+gCGZfaKvwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LQOtNai//bRjAN6MoKc3Hg80zO2H6z1J3MrqUZ9/T+AAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDEhIFoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOV2s2cQuw/xlOH6vgAAAA==[0m[Pipeline] }
+[8mha:////4Fb3yFGq00ve92/z/j54cNsMJFKBnjKTWc+vLVfupm7OAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDokFCVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodxu9gxi9wGDltXmvgAAAA==[0m[Pipeline] // node
+[8mha:////4L6o6YPSFiFWsKhk4NUV3BYpdIG0IoG4GxHzbMg8T8XuAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDdAhR0VppeIFxjHFi3QX7glPxIr7GH4iIRMVWO9PM6w2LFOFI0cnWYucxGS/7MLjpyUyxuwbKsqWLNISJgpW1zTU19jRjTWxhniigVLC0aAIlj45hpVr90FXQ6Kozx8kdFBS+ucMThJrKrCN/YYywvg1NIvx1/gZg7HuGcrvZM4jdB6WPsqy+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

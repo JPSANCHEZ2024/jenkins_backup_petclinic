@@ -1,0 +1,135 @@
+commit 4131834427a6e7063be9ebee151ab0fb17aa5c4f
+tree 79effaf656fe987f16159fe399d3a6c90c48098d
+parent f3f20fb309ffdce9fc17211ca0c53acdf80147ce
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:25:54 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:25:54 +0000
+
+    modify title
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit f3f20fb309ffdce9fc17211ca0c53acdf80147ce
+tree e1afa20d4e4dcf9ed52df3382d39b9fbe17361c6
+parent f9acd669833b29aa3b83c46b7397bfe5ed9d72ff
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:20:51 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:20:51 +0000
+
+    modify title
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit f9acd669833b29aa3b83c46b7397bfe5ed9d72ff
+tree 79effaf656fe987f16159fe399d3a6c90c48098d
+parent e26c8f15416bda94a2db78b78b044d58ac5c4c1f
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:19:14 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:19:14 +0000
+
+    modify title
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit e26c8f15416bda94a2db78b78b044d58ac5c4c1f
+tree e1afa20d4e4dcf9ed52df3382d39b9fbe17361c6
+parent 7a15e92d613dd29c495f6ea13a78d7fbfc8cbce5
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:17:29 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:17:29 +0000
+
+    modify title
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit 7a15e92d613dd29c495f6ea13a78d7fbfc8cbce5
+tree 79effaf656fe987f16159fe399d3a6c90c48098d
+parent 5c7b36e0c27e627304f21e19f81b2422d5045f6c
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:16:29 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:16:29 +0000
+
+    modify title 
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit 5c7b36e0c27e627304f21e19f81b2422d5045f6c
+tree e1afa20d4e4dcf9ed52df3382d39b9fbe17361c6
+parent 74070ca360f27e8234eff85bd7b16168a33568b3
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:57:35 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:57:35 +0000
+
+    add echo at stage Quality gate
+
+:100644 100644 908c28f5db213b644c8bd65e6bb7c6260bd19c8b 4cb504248c70863c2b88d3d88117b3239229a13d M	Jenkinsfile2
+commit 74070ca360f27e8234eff85bd7b16168a33568b3
+tree 7b545d15159c658c0d46cde2e17cb035978f8791
+parent d0ef8766aff4e1a48841133512efc5aecb548ef6
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:55:31 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:55:31 +0000
+
+    modify title
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit d0ef8766aff4e1a48841133512efc5aecb548ef6
+tree a6943e384a3a603434329bbc9f5efcbfcf1c52c0
+parent 80fbd462093b0760eae0ed9fccba02224d22d7ab
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:54:07 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:54:07 +0000
+
+    modify title h2
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit 80fbd462093b0760eae0ed9fccba02224d22d7ab
+tree 7b545d15159c658c0d46cde2e17cb035978f8791
+parent 4b6e3faddd9235b6505c69bb72bc0598505f2ed4
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:46:47 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:46:47 +0000
+
+    add new title h2
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit 4b6e3faddd9235b6505c69bb72bc0598505f2ed4
+tree a6943e384a3a603434329bbc9f5efcbfcf1c52c0
+parent 7ddec440a03366a868244b9df239aa7afbce63a2
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:44:54 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:44:54 +0000
+
+    modify title h2
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit 7ddec440a03366a868244b9df239aa7afbce63a2
+tree 7b545d15159c658c0d46cde2e17cb035978f8791
+parent 17af0319ce839d66caf6eee4a0e6be491d634a61
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-22 14:44:41 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-22 14:44:41 +0000
+
+    modify port owasp-zap
+
+:100644 100644 8acf9f950589d51ebb752c81a87ebca862b9088c 908c28f5db213b644c8bd65e6bb7c6260bd19c8b M	Jenkinsfile2
+commit 17af0319ce839d66caf6eee4a0e6be491d634a61
+tree caee4eb1c66eac0a1a7b3ed12274fe849a1577a0
+parent 9dd77a6acf3c905e7552b95e5bc0bd2a27923361
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-22 14:38:15 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-22 14:38:15 +0000
+
+    modify port owasp-zap
+
+:100644 100644 5404e243c18aed89c239a1cfd6922cf8be8b7e81 3fb394578eea98b9134877340e83f5849b545ebf M	Jenkinsfile_OWASP-ZAP
+commit 9dd77a6acf3c905e7552b95e5bc0bd2a27923361
+tree 1c79812d6d0c3de76fd91b634ff62f5ce016f6d6
+parent 2c598a0b4d75c2dc7d9c2925cdd54327a97c6f9d
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-22 13:42:08 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-22 13:42:08 +0000
+
+    add new script Jenkinsfile2
+
+:000000 100644 0000000000000000000000000000000000000000 8acf9f950589d51ebb752c81a87ebca862b9088c A	Jenkinsfile2
+commit 2c598a0b4d75c2dc7d9c2925cdd54327a97c6f9d
+tree 42641beeaf7ec0dd975f420da59ec380925c0b17
+parent 827e3c5290cc02bdb41c0c7d6683425da6d70164
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 09:27:57 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 09:27:57 +0000
+
+    modify ip address
+
+:100644 100644 d4293c7ab6fdc50c6ff2cf01cfa0de30f1bc4dd3 5404e243c18aed89c239a1cfd6922cf8be8b7e81 M	Jenkinsfile_OWASP-ZAP
+commit 827e3c5290cc02bdb41c0c7d6683425da6d70164
+tree 4644e13ab6d9c558b14a1dcc77ce2f51dbbcc760
+parent 652810269b3a7c3b7a8322c8bff53f726a8cd5f0
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 08:48:59 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 08:48:59 +0000
+
+    modify Scan script
+
+:100644 100644 6309046f353c9c7f3cdb8a2106b3a42bd74c877f 4e8a039ed3bac0dbf5ce2d1a08900c0ac94d742d M	Jenkinsfile

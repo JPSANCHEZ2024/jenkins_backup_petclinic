@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-05-30 14:37:18.684 UTC</timestamp>
+  <md5sum>09de63a125b03ba1e64ffc4b20542461</md5sum>
+  <fileName>Credential id=dockerhub-pwd name=dockerhub-pwd</fileName>
+  <usages>
+    <entry>
+      <string>Petclinic_Push_Docker</string>
+      <ranges>4-7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

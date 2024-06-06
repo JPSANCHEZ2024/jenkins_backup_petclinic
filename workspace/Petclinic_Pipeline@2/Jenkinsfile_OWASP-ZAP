@@ -1,0 +1,12 @@
+pipeline {
+    agent {label 'target3'}
+    stages {
+        stage('OWASP-ZAP') {
+            steps {
+                script {
+                    sh 'owasp-zap -port 8081 -cmd -quickurl http://52.255.184.94:8082/vets.html -quickprogress -quickout /home/azureuser/report_owasp_zap.xml'
+                }
+            } 
+        }
+    }
+}

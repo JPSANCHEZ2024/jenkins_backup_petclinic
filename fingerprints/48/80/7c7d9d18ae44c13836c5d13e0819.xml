@@ -1,0 +1,82 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-05-20 20:12:17.35 UTC</timestamp>
+  <md5sum>48807c7d9d18ae44c13836c5d13e0819</md5sum>
+  <fileName>Credential id=e818e044-5208-4164-a7df-40892c364cd7 name=jpsanchez_2@hotmail.com/****** (GitLab credential)</fileName>
+  <usages>
+    <entry>
+      <string>Petclinic_OWASP-ZAP_Test</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_OWASP-ZAP</string>
+      <ranges>2-3</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_JMeter</string>
+      <ranges>2-4</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Pipeline_v2</string>
+      <ranges>1-12</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Pipeline</string>
+      <ranges>1-4</ranges>
+    </entry>
+    <entry>
+      <string>Test_email_pipeline</string>
+      <ranges>38-46</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Sonarqube_QualityGate</string>
+      <ranges>2-4,6-9</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Pull_Docker</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1716285181185</timestamp>
+      <itemFullName>Petclinic_Pipeline</itemFullName>
+      <timestamp0>1716282842456</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1716285328626</timestamp>
+      <itemFullName>Petclinic_Pull_Docker</itemFullName>
+      <timestamp0>1716282998521</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1716285383605</timestamp>
+      <itemFullName>Petclinic_JMeter</itemFullName>
+      <timestamp0>1716283900743</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1716285398608</timestamp>
+      <itemFullName>Petclinic_OWASP-ZAP</itemFullName>
+      <timestamp0>1716283918550</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1716388714555</timestamp>
+      <itemFullName>Petclinic_OWASP-ZAP_Test</itemFullName>
+      <timestamp0>1716387103718</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1716797719475</timestamp>
+      <itemFullName>Petclinic_Sonarqube_QualityGate</itemFullName>
+      <timestamp0>1716573634796</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1717080509322</timestamp>
+      <itemFullName>Petclinic_Pipeline_v2</itemFullName>
+      <timestamp0>1716901827456</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1717098555311</timestamp>
+      <itemFullName>Test_email_pipeline</itemFullName>
+      <timestamp0>1717096039012</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

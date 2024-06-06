@@ -1,0 +1,81 @@
+commit f3f20fb309ffdce9fc17211ca0c53acdf80147ce
+tree e1afa20d4e4dcf9ed52df3382d39b9fbe17361c6
+parent f9acd669833b29aa3b83c46b7397bfe5ed9d72ff
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:20:51 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:20:51 +0000
+
+    modify title
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit f9acd669833b29aa3b83c46b7397bfe5ed9d72ff
+tree 79effaf656fe987f16159fe399d3a6c90c48098d
+parent e26c8f15416bda94a2db78b78b044d58ac5c4c1f
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:19:14 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:19:14 +0000
+
+    modify title
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit e26c8f15416bda94a2db78b78b044d58ac5c4c1f
+tree e1afa20d4e4dcf9ed52df3382d39b9fbe17361c6
+parent 7a15e92d613dd29c495f6ea13a78d7fbfc8cbce5
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:17:29 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:17:29 +0000
+
+    modify title
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit 7a15e92d613dd29c495f6ea13a78d7fbfc8cbce5
+tree 79effaf656fe987f16159fe399d3a6c90c48098d
+parent 5c7b36e0c27e627304f21e19f81b2422d5045f6c
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:16:29 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:16:29 +0000
+
+    modify title 
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit 5c7b36e0c27e627304f21e19f81b2422d5045f6c
+tree e1afa20d4e4dcf9ed52df3382d39b9fbe17361c6
+parent 74070ca360f27e8234eff85bd7b16168a33568b3
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:57:35 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:57:35 +0000
+
+    add echo at stage Quality gate
+
+:100644 100644 908c28f5db213b644c8bd65e6bb7c6260bd19c8b 4cb504248c70863c2b88d3d88117b3239229a13d M	Jenkinsfile2
+commit 74070ca360f27e8234eff85bd7b16168a33568b3
+tree 7b545d15159c658c0d46cde2e17cb035978f8791
+parent d0ef8766aff4e1a48841133512efc5aecb548ef6
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:55:31 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:55:31 +0000
+
+    modify title
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit d0ef8766aff4e1a48841133512efc5aecb548ef6
+tree a6943e384a3a603434329bbc9f5efcbfcf1c52c0
+parent 80fbd462093b0760eae0ed9fccba02224d22d7ab
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:54:07 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:54:07 +0000
+
+    modify title h2
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit 80fbd462093b0760eae0ed9fccba02224d22d7ab
+tree 7b545d15159c658c0d46cde2e17cb035978f8791
+parent 4b6e3faddd9235b6505c69bb72bc0598505f2ed4
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:46:47 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:46:47 +0000
+
+    add new title h2
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit 4b6e3faddd9235b6505c69bb72bc0598505f2ed4
+tree a6943e384a3a603434329bbc9f5efcbfcf1c52c0
+parent 7ddec440a03366a868244b9df239aa7afbce63a2
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:44:54 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 13:44:54 +0000
+
+    modify title h2
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html

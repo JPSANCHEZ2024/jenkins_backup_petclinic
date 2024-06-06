@@ -1,0 +1,24 @@
+Started at Wed May 29 06:42:47 UTC 2024
+Checking Petclinic_JMeter
+Checking Petclinic_OWASP-ZAP
+Checking Petclinic_OWASP-ZAP_Test
+Checking Petclinic_Pipeline
+Checking Petclinic_Pipeline_v2
+Checking Petclinic_Pull_Docker
+Checking Petclinic_Push_Docker
+Checking Petclinic_Sonarqube_QualityGate
+Checking test_email
+Checking Test_email_pipeline
+Finished at Wed May 29 06:42:47 UTC 2024. 143ms
+Started at Thu May 30 06:42:47 UTC 2024
+Checking Petclinic_JMeter
+Checking Petclinic_OWASP-ZAP
+Checking Petclinic_OWASP-ZAP_Test
+Checking Petclinic_Pipeline
+Checking Petclinic_Pipeline_v2
+Checking Petclinic_Pull_Docker
+Checking Petclinic_Push_Docker
+Checking Petclinic_Sonarqube_QualityGate
+Checking test_email
+Checking Test_email_pipeline
+Finished at Thu May 30 06:42:47 UTC 2024. 142ms

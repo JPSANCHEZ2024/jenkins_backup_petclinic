@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2198.v41dd8ef6dd56"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2198.v41dd8ef6dd56">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty plugin="gitlab-plugin@1.8.1">
+      <gitLabConnection></gitLabConnection>
+      <jobCredentialId></jobCredentialId>
+      <useAlternativeCredential>false</useAlternativeCredential>
+    </com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3894.3896.vca_2c931e7935">
+    <script>pipeline {
+    agent { label &apos;target3&apos; }
+
+    stages {
+        stage(&apos;Send Reports by email 1&apos;) {
+            steps {
+                emailext (
+                    //bcc: &apos;&apos;,
+                    body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;,
+                    //cc: &apos;&apos;,
+                    from: &apos;jpsg9868@gmail.com&apos;,
+                    //replyTo: &apos;&apos;,
+                    subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;,
+                    to: &apos;jpsg9868@gmail.com&apos;
+                )
+            }
+        }
+        
+        stage(&apos;Send Test Email&apos;) {
+            steps {
+                emailext (
+                    subject: &apos;Test Email from Jenkins&apos;,
+                    body: &apos;This is a test email from Jenkins.&apos;,
+                    from: &apos;jpsg9868@gmail.com&apos;,
+                    to: &apos;jpsg9868@gmail.com&apos;
+                )
+            }
+        }
+        
+        stage(&apos;Send Reports by email 2&apos;) {
+            steps {
+                emailext attachmentsPattern: &apos;test.txt&apos;, body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;, subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;, from: &apos;jpsg9868@gmail.com&apos;, to: &apos;jpsg9868@gmail.com&apos;
+               //mail bcc: &apos;&apos;, body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;, cc: &apos;&apos;, from: &apos;&apos;, replyTo: &apos;&apos;, subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;, to: &apos;jpsg9868@gmail.com&apos; 
+               //emailext (
+                //     body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;,
+                //   subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;,
+                //   to: &apos;jpsg9868@gmail.com&apos;)
+                
+                // attachmentsPattern: &apos;report_jmeter.jtl, report_owasp_zap.xml, report-task.txt&apos;,
+                
+                
+                
+                //emailext(
+                //    body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;,
+                //    subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;,
+                //    to: &apos;jpsg9868@gmail.com&apos;,
+                    //attachmentsPattern: &apos;report_jmeter.jtl, report_owasp_zap.xml, report-task.txt&apos;
+                //)
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

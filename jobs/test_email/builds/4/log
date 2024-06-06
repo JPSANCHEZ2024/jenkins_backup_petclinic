@@ -1,0 +1,8 @@
+Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Running as SYSTEM
+Building remotely on [8mha:////4IlZ+qRcSdwjQtg303uEZW68J6tEHqD4iLI0uGQa/L07AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/ZDEovTUEkMAhHDLL8YAAAA=[0mTarget1 (target1) in workspace /home/azureuser/workspace/test_email
+[test_email] $ /bin/sh -xe /tmp/jenkins11473527757581470250.sh
+/tmp/jenkins11473527757581470250.sh: 3: Syntax error: newline unexpected
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: jpsg9868@gmail.com
+Finished: FAILURE

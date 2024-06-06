@@ -1,0 +1,9 @@
+Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+org.jenkinsci.plugins.scriptsecurity.scripts.UnapprovedUsageException: script not yet approved for use
+	at org.jenkinsci.plugins.scriptsecurity.scripts.ScriptApproval.using(ScriptApproval.java:668)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition.create(CpsFlowDefinition.java:123)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition.create(CpsFlowDefinition.java:69)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:311)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

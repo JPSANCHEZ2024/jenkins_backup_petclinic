@@ -1,0 +1,63 @@
+commit a2b6e92346807d0f28baf25e9f5271dee3776f85
+tree 264f1a9075ea50d96b703aae7afa94f7454d4833
+parent 2082949c13babafc20dd0249f647f2fba7bf9638
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:46:58 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:46:58 +0000
+
+    add report of sonarqube
+
+:100644 100644 1ec82ea05533ab3ca20b9c908f7d9998da31df07 d7605e70141500698755a4f4e6e30f03a2df6eaf M	Jenkinsfile_Send_Email
+commit 2082949c13babafc20dd0249f647f2fba7bf9638
+tree 9cabad57427a081318b5ea65df45240575f89bd7
+parent 68aa615cfaf3a454c268b7b047225f082301240b
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:29:05 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:29:05 +0000
+
+    modify name of report owasp-zap
+
+:100644 100644 2106c1a9e313e3af70025144bf42055596f4c1f7 1ec82ea05533ab3ca20b9c908f7d9998da31df07 M	Jenkinsfile_Send_Email
+commit 68aa615cfaf3a454c268b7b047225f082301240b
+tree 6e4addc3ae4f35a44086c37fdb42a58f7612956a
+parent 9fe96ac762a550597c902a306792e45b36069a81
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:24:58 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:24:58 +0000
+
+    modify path of reports
+
+:100644 100644 091b128a2bd16b71cd4f974fc1ae2fd70399b2bc 2106c1a9e313e3af70025144bf42055596f4c1f7 M	Jenkinsfile_Send_Email
+commit 9fe96ac762a550597c902a306792e45b36069a81
+tree 18bcd8703f611e823a8aa28dcd64bebe44d82f71
+parent ae9bbbc653ebc5f6cfea8dcde4f89376291b6a2b
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:23:20 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:23:20 +0000
+
+    copy reports in workspace
+
+:100644 100644 8f911d6c56d1c4225b9a5f0cf558b15d47b4914e 091b128a2bd16b71cd4f974fc1ae2fd70399b2bc M	Jenkinsfile_Send_Email
+commit ae9bbbc653ebc5f6cfea8dcde4f89376291b6a2b
+tree 73202246c5e2781f9c13d48c95b273fa3f2bbfab
+parent 987193f9aa3d400fb9f6a36b0a9c31d6d8bab342
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:15:47 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:15:47 +0000
+
+    modify script of Send Reports
+
+:100644 100644 4159b7a661622fdcc2b8842a3fa6cc9a79845686 8f911d6c56d1c4225b9a5f0cf558b15d47b4914e M	Jenkinsfile_Send_Email
+commit 987193f9aa3d400fb9f6a36b0a9c31d6d8bab342
+tree 7508674eed0ec89d8a7ad48edf3881874d7d48ce
+parent 88702617c868ca2955b5e7bad36cf794518b55af
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:03:22 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:03:22 +0000
+
+    add stage Send Reports by email
+
+:000000 100644 0000000000000000000000000000000000000000 4159b7a661622fdcc2b8842a3fa6cc9a79845686 A	Jenkinsfile_Send_Email
+commit 88702617c868ca2955b5e7bad36cf794518b55af
+tree 23dabfa23b7c3125460d929024c06dd88a45d033
+parent 16d634f6becc7d495f906536e19f94a7414a5c0c
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 09:27:03 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 09:27:03 +0000
+
+    add stage send reports by email
+
+:100644 100644 4cb504248c70863c2b88d3d88117b3239229a13d 3ee75c70187d139937ac62feee4ee1ed87814af5 M	Jenkinsfile2

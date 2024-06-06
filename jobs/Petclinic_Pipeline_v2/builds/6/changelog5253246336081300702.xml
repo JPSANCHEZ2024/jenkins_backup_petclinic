@@ -1,0 +1,9 @@
+commit 4131834427a6e7063be9ebee151ab0fb17aa5c4f
+tree 79effaf656fe987f16159fe399d3a6c90c48098d
+parent f3f20fb309ffdce9fc17211ca0c53acdf80147ce
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:25:54 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-24 14:25:54 +0000
+
+    modify title
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html

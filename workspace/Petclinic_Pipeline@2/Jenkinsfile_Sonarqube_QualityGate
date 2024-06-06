@@ -1,0 +1,47 @@
+pipeline {
+    agent any
+    tools{
+        maven "MAVEN"
+    }
+
+    stages {
+        stage('Verification') {
+            steps {
+                    sh 'whoami'
+                    sh 'pwd'
+                }
+        }
+        
+        stage ('Start SonarQube'){
+            agent {label 'target3'}
+            steps {
+                echo 'SonarQube Start'
+                sh '''
+                    if sudo docker ps  --filter "name=sonarqube" >/dev/null; then
+                        sudo docker start sonarqube
+                    fi
+                '''
+            }
+        }
+
+        stage('Scan') {
+            agent {label 'target3'}
+            steps {
+                echo 'Scan Start'
+                script {
+                    withSonarQubeEnv('sonarqube1') {
+                        sh "mvn clean compile sonar:sonar"
+                    }
+                }
+            }
+        }  
+
+        stage("Quality gate"){
+            agent {label 'target3'}
+            steps {
+                echo 'Quality gate Start'
+                waitForQualityGate abortPipeline: true
+            }
+        }
+    }    
+}

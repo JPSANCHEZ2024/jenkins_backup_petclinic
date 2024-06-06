@@ -1,0 +1,212 @@
+Started at Thu May 30 11:31:49 UTC 2024
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 11:31:49 UTC 2024. 0ms
+Started at Thu May 30 12:31:49 UTC 2024
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 12:31:49 UTC 2024. 0ms
+Started at Thu May 30 13:31:49 UTC 2024
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 13:31:49 UTC 2024. 0ms
+Started at Thu May 30 14:31:49 UTC 2024
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 14:31:49 UTC 2024. 0ms
+Started at Thu May 30 15:31:49 UTC 2024
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing send_email_pipeline
+Offering send_email_pipeline to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 15:31:49 UTC 2024. 0ms
+Started at Thu May 30 16:31:49 UTC 2024
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing send_email_pipeline
+Offering send_email_pipeline to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 16:31:49 UTC 2024. 0ms
+Started at Thu May 30 17:31:49 UTC 2024
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing send_email_pipeline
+Offering send_email_pipeline to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 17:31:49 UTC 2024. 0ms
+Started at Thu May 30 18:31:49 UTC 2024
+Processing mail_pipepline
+Offering mail_pipepline to Project Build Discarder
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing send_email_pipeline
+Offering send_email_pipeline to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 18:31:49 UTC 2024. 0ms
+Started at Thu May 30 19:31:49 UTC 2024
+Processing mail_pipepline
+Offering mail_pipepline to Project Build Discarder
+Processing Petclinic_JMeter
+Offering Petclinic_JMeter to Project Build Discarder
+Processing Petclinic_OWASP-ZAP
+Offering Petclinic_OWASP-ZAP to Project Build Discarder
+Processing Petclinic_OWASP-ZAP_Test
+Offering Petclinic_OWASP-ZAP_Test to Project Build Discarder
+Processing Petclinic_Pipeline
+Offering Petclinic_Pipeline to Project Build Discarder
+Processing Petclinic_Pipeline_v2
+Offering Petclinic_Pipeline_v2 to Project Build Discarder
+Processing Petclinic_Pull_Docker
+Offering Petclinic_Pull_Docker to Project Build Discarder
+Processing Petclinic_Push_Docker
+Offering Petclinic_Push_Docker to Project Build Discarder
+Processing Petclinic_Sonarqube_QualityGate
+Offering Petclinic_Sonarqube_QualityGate to Project Build Discarder
+Processing send_email_pipeline
+Offering send_email_pipeline to Project Build Discarder
+Processing test_email
+Offering test_email to Project Build Discarder
+Processing Test_email_pipeline
+Offering Test_email_pipeline to Project Build Discarder
+Finished at Thu May 30 19:31:49 UTC 2024. 0ms

@@ -1,0 +1,9 @@
+commit ae9bbbc653ebc5f6cfea8dcde4f89376291b6a2b
+tree 73202246c5e2781f9c13d48c95b273fa3f2bbfab
+parent 987193f9aa3d400fb9f6a36b0a9c31d6d8bab342
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:15:47 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:15:47 +0000
+
+    modify script of Send Reports
+
+:100644 100644 4159b7a661622fdcc2b8842a3fa6cc9a79845686 8f911d6c56d1c4225b9a5f0cf558b15d47b4914e M	Jenkinsfile_Send_Email

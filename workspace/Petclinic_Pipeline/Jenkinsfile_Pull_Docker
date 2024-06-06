@@ -1,0 +1,43 @@
+pipeline {
+  agent { label 'target2'}
+  stages {
+    
+    stage('Verification') {
+       agent { label 'target2'}
+       steps {
+                sh 'whoami'
+                sh 'pwd'
+        }
+    }
+    
+    stage('Docker Pull') {
+      agent { label 'target2'}
+      steps {
+        sh 'sudo docker pull jpsanchez2024/petclinic:latest' 
+      }
+    }
+    
+    stage('Docker Run') {
+      agent { label 'target2'}
+      steps {
+          // Check for existing container
+          sh '''
+                if [ -n "$(sudo docker ps -q)" ]; then
+                    sudo docker stop $(sudo docker ps -q)
+                fi
+            '''
+          sh 'sudo docker run --rm -d -p 8082:8080 jpsanchez2024/petclinic' 
+          sh 'sleep 30'
+          
+      }
+    }
+  }
+  
+  post {
+        success {
+            echo "Pipeline successfully completed. Next pipeline launched..."
+            build 'Petclinic_JMeter'
+            //build 'Petclinic_Prometheus_Grafana'
+        }
+    }
+}  

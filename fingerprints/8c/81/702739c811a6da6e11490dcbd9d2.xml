@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-05-21 09:12:55.232 UTC</timestamp>
+  <md5sum>8c81702739c811a6da6e11490dcbd9d2</md5sum>
+  <fileName>Credential id=dockerhub name=JPSANCHEZ2024/******</fileName>
+  <usages>
+    <entry>
+      <string>Petclinic_Pipeline_v2</string>
+      <ranges>1,4-5,8,10-11</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Pipeline</string>
+      <ranges>3-4</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Push_Docker</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

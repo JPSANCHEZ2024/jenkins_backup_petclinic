@@ -1,0 +1,18 @@
+commit 652810269b3a7c3b7a8322c8bff53f726a8cd5f0
+tree 7beea50b66f52a5adfa35c26f9b3dae725af60c7
+parent f0744f7e94adfd9e2a4c32780e5b91ec22b23f8c
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 08:41:18 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 08:41:18 +0000
+
+    add verification in stages
+
+:100644 100644 59a93ad7ca4252a6945b05b9a4562daf24fff29c 48e6b3a224b946ab1666cf8eedd1dd123922ca3f M	Jenkinsfile_Sonarqube_QualityGate
+commit f0744f7e94adfd9e2a4c32780e5b91ec22b23f8c
+tree 5e8322da3c54ff8e19e31fc71c7c60037cd4516b
+parent fca5dc463ba99503eaf16d6e58977f3b0074e1c8
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 08:39:26 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-21 08:39:26 +0000
+
+    add verification
+
+:100644 100644 13f1fd1396765b6cdd14d9e11b51c831539cc142 59a93ad7ca4252a6945b05b9a4562daf24fff29c M	Jenkinsfile_Sonarqube_QualityGate

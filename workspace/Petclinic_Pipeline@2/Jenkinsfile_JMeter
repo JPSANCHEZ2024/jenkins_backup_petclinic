@@ -1,0 +1,28 @@
+pipeline {
+    agent { label 'target3' }
+    
+    stages {
+        stage('Verification') {
+            steps {
+                sh 'whoami'
+                sh 'pwd'
+            }
+        }
+
+        stage('Run JMeter Test') {
+            steps {
+                // Lancement du test JMeter avec le fichier JMX
+                script{
+                    sh 'cd /opt/apache-jmeter-5.6.3/bin/ && sudo ./jmeter -Jjmeter.save.saveservice.output_format=xml -n -t /opt/apache-jmeter-5.6.3/bin/petclinic.jmx -l /home/azureuser/report_jmeter.jtl'
+                }    
+            }
+        }
+    }
+    
+    post {
+        success {
+            echo "Pipeline successfully completed. Next pipeline launched..."
+            build 'Petclinic_OWASP-ZAP'
+        }
+    }
+}

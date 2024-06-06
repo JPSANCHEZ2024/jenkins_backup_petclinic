@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage ('Start Prometheus and Grafana'){
+            agent {label 'target3'}
+            steps {
+                sh '''
+                    if sudo docker ps -q >/dev/null; then
+                        cd ~/config
+                        sudo docker compose start
+                    fi
+                '''
+            }
+        }
+    }
+}        

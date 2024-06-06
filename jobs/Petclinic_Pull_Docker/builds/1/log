@@ -1,0 +1,192 @@
+Started by upstream project "[8mha:////4C33xsaWUvISzVe9wf5NvBOMT8VSqICPG1j5iz6bVlMUAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2A1JJkoI2ZyfEBmQWpQFaqPgBB2y4yzQAAAA==[0mPetclinic_Pipeline" build number [8mha:////4OvaR6KASUOGVw3QH+fDqd+yDoHwPspdSC06XIySfxS3AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/YDUkmSgjZnJ8QGZBalAVqq+MQC4keaozgAAAA==[0m3
+originally caused by:
+ Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Obtained Jenkinsfile_Pull_Docker from git https://gitlab.com/ramo8221914/petclinik.git
+[8mha:////4H3gpFGsvnklvu1TtbrBt2KzsrBJzieppeoGRYitvHpeAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4GhMEEWvoIuDBbBEbKx26tmLltlh+fs3iwxCi5pHmU32AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4PkJPpucxwcMci3NY+ox80vhLJ0kwdWIH/WWEaLdG0PTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklRvoA94tSG8cAAAA=[0mTarget2 in /home/azureuser/workspace/Petclinic_Pull_Docker
+[8mha:////4KnCQR+peol/+uqhDFBG2BM86poY2l2wpxokO3Tip5TDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KnWX1YueZaj6uwbV68jFmExrNCxodMKMgrrI4gR+WhtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GD6twJ6xyE/MHCGa5pxbe0AWzvqERnGBrM7gsg9E4Y4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ht2/ETuoWoowWi+Ei1US1K34i3tguE5TxWyjQaZGBgoAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Cloning the remote Git repository
+Cloning repository https://gitlab.com/ramo8221914/petclinik.git
+ > git init /home/azureuser/workspace/Petclinic_Pull_Docker # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 827e3c5290cc02bdb41c0c7d6683425da6d70164 (refs/remotes/origin/main)
+Commit message: "modify Scan script"
+First time build. Skipping changelog.
+[8mha:////4DMPOsa3O1enptECSsAfp9K1sWj0z6MQnwjMNxguO5GUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BaFsEbaJCAsUmXbRSglHwAgbe0aI0VFdu6X01w56fbeAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Cs+yb9DLkZvr74SGg7Dn6uBVqBHQ7k+Q72pUeeUqInmAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HqZtRgGca2OKor/L0kt5IZv5FK2ELFinv2rzCEF2H1ZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FSGI0cV7w5xhqtYeelP9M6s2kze8KxxMEtGq94Llr7gAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4CngkOVgA770kahhTSyqKJO/EWkHIY2fIaQRCAAttt7AAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Verification)
+[8mha:////4BLeHcWGe42lVBw8molXgsIZkpsi7giD5rwAD3kOJ0aJAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] node
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 827e3c5290cc02bdb41c0c7d6683425da6d70164 # timeout=10
+Running on [8mha:////4PkJPpucxwcMci3NY+ox80vhLJ0kwdWIH/WWEaLdG0PTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklRvoA94tSG8cAAAA=[0mTarget2 in /home/azureuser/workspace/Petclinic_Pull_Docker@2
+[8mha:////4MC1cyneEQ4BTh4KctLsH7S9E7KNB94U3aRceITZ+MwrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4MKMIgvENLVPIM2fczRIyvaylSO1a8Aed82Bldu/eYNzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Cloning the remote Git repository
+Avoid second fetch
+Checking out Revision 827e3c5290cc02bdb41c0c7d6683425da6d70164 (refs/remotes/origin/main)
+Cloning repository https://gitlab.com/ramo8221914/petclinik.git
+ > git init /home/azureuser/workspace/Petclinic_Pull_Docker@2 # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 827e3c5290cc02bdb41c0c7d6683425da6d70164 # timeout=10
+Commit message: "modify Scan script"
+[8mha:////4BPF1hNjAXXzrCdaIhypZS6QHnWrf/awthNWfBq+fyMtAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDIgBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfABe7r57wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4FbkSEJi/L5wp2n3TcUF//Vwqs/u1Du4ir93xnn0M7zpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4LslGDMUBQNZO4Xltj1qnbtIBfMIC+toHPTvfK/vLdNcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ whoami
+azureuser
+[8mha:////4G4lc2h/mqy52X8kz8lqbqlabaUH7uVBB4HFl+80Kz7rAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] sh
++ pwd
+/home/azureuser/workspace/Petclinic_Pull_Docker@2
+[8mha:////4EOj4LmG+H0fWNPiy7WvcDg3FsOWjDxncRj5oEKY6v0gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4Bq20unvzlPvKHW9zrYWIl1pAbaeDSJlSoMsCTiZlgupAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MZrEfzcz9CZeuUs7PIe/RWYhGFQK6998y5Qk595DZmnAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEFO/zRvgAAAA==[0m[Pipeline] }
+[8mha:////4MxufSw3U9IoBH7XfgrYkZBZftMy7I9Zudn9DtNAQKyuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPys7/ru+AAAA[0m[Pipeline] // node
+[8mha:////4NmozoFGDdrloBIqSqG7zZ2EPngwljT+o68TPKBkuX4NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wEtfcbuvgAAAA==[0m[Pipeline] }
+[8mha:////4IptasoNjEH5hhpk20wb4lepmogUD4Ac+jQud68TSuGSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRKWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QEVP1UfvgAAAA==[0m[Pipeline] // stage
+[8mha:////4DIer/6cwchP841IBPgNsjf0YPjXK6r5p5SsvWBFnXXjAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWFATF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQFBh4/6wgAAAA==[0m[Pipeline] stage
+[8mha:////4GAc2Nw/BEIHv+b5uemt34LSkumjGG4T2wqaZdn9TrJOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (Docker Pull)
+[8mha:////4NFC4qMghnUaB8oG/vP4L7WywB4hdPpNTsQUXjYR1eS2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] node
+Running on [8mha:////4PkJPpucxwcMci3NY+ox80vhLJ0kwdWIH/WWEaLdG0PTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklRvoA94tSG8cAAAA=[0mTarget2 in /home/azureuser/workspace/Petclinic_Pull_Docker@2
+[8mha:////4DoXG6L1KlQOCY7VuF4FRj3zc4nmxyhHc3P+g2lD67VgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4DfOGhzS2XK3xvKfEv/eGRSLpSQTZe1kFiHKH2YHjgOQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+Checking out Revision 827e3c5290cc02bdb41c0c7d6683425da6d70164 (refs/remotes/origin/main)
+Commit message: "modify Scan script"
+[8mha:////4LkvHJEgNZ59bw5RuUcpItzmrSDOkV1HInlLvx9vS5ZHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+GVyAIcIAAAA=[0m[Pipeline] withEnv
+[8mha:////4BTILYQj5uhxuALs+b/RuDTp/Xf2MalNu9KvFLDLw3BrAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4Jh59KlinaOl8YnZ2MTSToeO1Ub8OGQjvPmdsSvxgx5tAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Pull_Docker@2/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 827e3c5290cc02bdb41c0c7d6683425da6d70164 # timeout=10
++ sudo docker pull jpsanchez2024/petclinic:latest
+latest: Pulling from jpsanchez2024/petclinic
+169185f82c45: Pulling fs layer
+1e929b64ace7: Pulling fs layer
+b31f6dda82e9: Pulling fs layer
+169185f82c45: Verifying Checksum
+169185f82c45: Download complete
+1e929b64ace7: Verifying Checksum
+1e929b64ace7: Download complete
+b31f6dda82e9: Verifying Checksum
+b31f6dda82e9: Download complete
+169185f82c45: Pull complete
+1e929b64ace7: Pull complete
+b31f6dda82e9: Pull complete
+Digest: sha256:101e4f89a03386a9e5ae44ae91de68c66835d7398cfabf94d5f5a6bde422addb
+Status: Downloaded newer image for jpsanchez2024/petclinic:latest
+docker.io/jpsanchez2024/petclinic:latest
+[8mha:////4KaMPVLDuoQjQDurXBGFrnz6dN5BTI36AOCxWp3Fqxa9AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4H5q1tf4IIjH3K0xIhDBzv/fC/k8sw1LrYcW3PHjJ0uwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4AcYpe1JuCUlaDiJpXPDFGO2GIo8GOvwyCkgFwEFw0+lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGq5EauvgAAAA==[0m[Pipeline] }
+[8mha:////4IZKE86kWC9RIJ/Hh2KNwup5yuX3GQmm3LRNcQxT2NErAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQNCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+a39c/vgAAAA==[0m[Pipeline] // node
+[8mha:////4B+ESgATVcMz5rxh8MRz7UVU+VyGR+LKPU+NDdy6u0NZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQQNCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+pPIyDvgAAAA==[0m[Pipeline] }
+[8mha:////4Ay07/NQmxLIzOq6T74Ed46efYWnhyqr0qgpZUZbbiRMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAfk6b8b4AAAA=[0m[Pipeline] // stage
+[8mha:////4MdFLIiRCEzObaHCnWOrmRb/yvwn3MAo0NdMnszLOIdIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUkdgQE2uUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oEkRDhQd6yz2HpP2bAijK4lNFPtLoIl1dGaaMFGwTNpJkrHHpUrKFhZVNawErC3qQMmjy7ARnbqrNih07SnHsu0F1N7c4AGVKOSsYv6WOcL2OppE+OP8BcA8ZKg5L7bjn2fzBmZRBk/CAAAA[0m[Pipeline] stage
+[8mha:////4BxO4n/B7DMt/T1SA30EiBOl0ZT8ocOVLUiddRTMGnSPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (Docker Run)
+[8mha:////4B5zSy4uN6bDM05Yf21h3c5BJETqKnT6yKy+wOUvFaylAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] node
+Running on [8mha:////4PkJPpucxwcMci3NY+ox80vhLJ0kwdWIH/WWEaLdG0PTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklRvoA94tSG8cAAAA=[0mTarget2 in /home/azureuser/workspace/Petclinic_Pull_Docker@2
+[8mha:////4C/E/JTfZGY8dV4UUKUD3eHi6Ph3z6niXunFD143coWSAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4AgSxXblBI5DR4NU0N05ApMbNxjRHVAnwSUHSEfZ+wGJAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+Checking out Revision 827e3c5290cc02bdb41c0c7d6683425da6d70164 (refs/remotes/origin/main)
+Commit message: "modify Scan script"
+[8mha:////4JF1yd7REsZ8l/v4fHs179cUT0LQgOIF0Z25eAZ/UFHeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qVgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AIy697vCAAAA[0m[Pipeline] withEnv
+[8mha:////4DXIRuuZHVgleT5vWHdRlvl8/gzR9sMFlAk7z+0+q/0tAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4KxiUl/VcBmCD3ZefRvadEV1WLNLBvbIc49dsqVqG4D/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] sh
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Pull_Docker@2/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 827e3c5290cc02bdb41c0c7d6683425da6d70164 # timeout=10
++ sudo docker ps -q
++ [ -n  ]
+[8mha:////4LByUhEAtFxXQFQPYAWryfq9g0MJaRuBC0zo1fIZsplfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHbImT7vgAAAA==[0m[Pipeline] sh
++ sudo docker run --rm -d -p 8082:8080 jpsanchez2024/petclinic
+7998d87430405b9865c53409678c3025930ce78aa97719648ff9eb350f4e2d74
+[8mha:////4LtVoQMiG0MINwdZi0clNG64aI3gx36gMb+W9pHMXFLyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAaJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+l82QrvgAAAA==[0m[Pipeline] sh
++ sleep 30
+[8mha:////4E6h0kkHgS3ejWyUZM0ApwRskCgJMSMXDg5pY3LFGvJcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] }
+[8mha:////4Ny7Pkj4bl/WzmC7xxiJUBV/UQ9VI8QZXmnnGDKD7N6xAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Rc3k7vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4N4lCo2/MevdqAlBhmCMTd5FfCrYnXuwBkP3pKaQBlpAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP1jBKx6+AAAA[0m[Pipeline] }
+[8mha:////4FNVVtp/lV+ssZYYa+zcVhkAy931qRvMqP9Wd6wWnYzCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP0NkSp2+AAAA[0m[Pipeline] // node
+[8mha:////4Psr5kMiwvY/WLTA8vWDttvJ/AOMXrpddJO+2KIadnhyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wFwhxEhvgAAAA==[0m[Pipeline] }
+[8mha:////4ImXRjvVUa7LiuHnLjUavNGRjJf040IFCMd8Ec4ddpz5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9kpIw+vgAAAA==[0m[Pipeline] // stage
+[8mha:////4KZFkbwQGoB00u9QO/JjvZfeM1P/ZTWbTe9ogW32AVhGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUHRADYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g3PuSg/wgAAAA==[0m[Pipeline] stage
+[8mha:////4BKKQj9owU4H7hxvkZVFC1nue+2xKCNz7Fqgzyyk/pErAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4LVtBynxNep5OwZ5KJ8+uExhgj1ucYruJh/iK4Rdih0VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] echo
+Pipeline successfully completed. Next pipeline launched...
+[8mha:////4C4yYtiR1k34ixuLtzBqmUwa02mesN81AC7IXSi1oDc2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+LPcATvgAAAA==[0m[Pipeline] build
+Scheduling project: [8mha:////4HXJYCHdKiT57M60xS04CHBVP5V8kWnqZ0Ll2eHd8qGWAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2A1JJkoI2ZyfFevqklqUX6AFdtVCvLAAAA[0mPetclinic_JMeter
+Starting building: [8mha:////4BHroSZmkaPACXPQkYtfBvIYIjCOBs47/pAljuAyZlrqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYJ/az8JP2A1JJkoI2ZyfFevqklqUX6hvoAAC2ir80AAAA=[0mPetclinic_JMeter #1
+Build [8mha:////4BHroSZmkaPACXPQkYtfBvIYIjCOBs47/pAljuAyZlrqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYJ/az8JP2A1JJkoI2ZyfFevqklqUX6hvoAAC2ir80AAAA=[0mPetclinic_JMeter #1 completed: FAILURE
+Error when executing success post condition:
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: ad9ec941-a6c3-4007-9f3a-2277bad76120
+org.jenkinsci.plugins.workflow.steps.FlowInterruptedException
+	at org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerListener.onFinalized(BuildTriggerListener.java:76)
+	at hudson.model.listeners.RunListener.lambda$fireFinalized$3(RunListener.java:260)
+	at jenkins.util.Listeners.lambda$notify$0(Listeners.java:59)
+	at jenkins.util.Listeners.notify(Listeners.java:67)
+	at hudson.model.listeners.RunListener.fireFinalized(RunListener.java:258)
+	at hudson.model.Run.onEndBuilding(Run.java:2052)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.finish(WorkflowRun.java:670)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:362)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+
+[8mha:////4C2NrbmNlMBoChtJvQfNHyJV9aojuAX5pzk8jZQv5jyiAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiChASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApAemcr4AAAA=[0m[Pipeline] }
+[8mha:////4AFjmbhLiqi4NY9g/5/lWAZyM6+NVkkMPCajIxtyRiR5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQEFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAm2iNZL4AAAA=[0m[Pipeline] // stage
+[8mha:////4Alq1zz4bcrBsRYUuyfXB/uJcAW0bELnIKN2RJs8XkNbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCIkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w8P294ivgAAAA==[0m[Pipeline] }
+[8mha:////4BzMYdu2x97Rt3pC3qSZf0zlPLTldRyss+rUpCfU2OU0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w8h29xIvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4HVjWlEQcPnQoquWhFP5r+Hgnod7GPOtNr3wxyI+1nt/AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI9ztBtv0ATZSgB70AAAA=[0m[Pipeline] }
+[8mha:////4Kwq6eZuU8zpz0HqAcVLyaTfpOsnX+wFaPU+0LK42MpBAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HPntk3r0AAAA=[0m[Pipeline] // node
+[8mha:////4L1je9o9wvFYYvuj6v6/jbFX9gK55ybJ8bNC7TwEDJrtAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABhiA5S9AAAA[0m[Pipeline] End of Pipeline
+[8mha:////4BHroSZmkaPACXPQkYtfBvIYIjCOBs47/pAljuAyZlrqAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgYJ/az8JP2A1JJkoI2ZyfFevqklqUX6hvoAAC2ir80AAAA=[0mPetclinic_JMeter #1 completed with status FAILURE (propagate: false to ignore)
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: ad9ec941-a6c3-4007-9f3a-2277bad76120
+Finished: FAILURE

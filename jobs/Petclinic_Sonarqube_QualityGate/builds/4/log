@@ -1,0 +1,593 @@
+Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Obtained Jenkinsfile_Sonarqube_QualityGate from git https://gitlab.com/ramo8221914/petclinik.git
+[8mha:////4H3gpFGsvnklvu1TtbrBt2KzsrBJzieppeoGRYitvHpeAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4GhMEEWvoIuDBbBEbKx26tmLltlh+fs3iwxCi5pHmU32AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IOIrp4Tt1Xpjvz9Z5ugaQpNmAiHYIHdOB36CUt71gfMAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklhvoANNh/MMcAAAA=[0mTarget1 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4KnCQR+peol/+uqhDFBG2BM86poY2l2wpxokO3Tip5TDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KnWX1YueZaj6uwbV68jFmExrNCxodMKMgrrI4gR+WhtAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4GD6twJ6xyE/MHCGa5pxbe0AWzvqERnGBrM7gsg9E4Y4AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ht2/ETuoWoowWi+Ei1US1K34i3tguE5TxWyjQaZGBgoAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision fca5dc463ba99503eaf16d6e58977f3b0074e1c8 (refs/remotes/origin/main)
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fca5dc463ba99503eaf16d6e58977f3b0074e1c8 # timeout=10
+Commit message: "modify Scan"
+ > git rev-list --no-walk c95ab43992435b371e774e14688ce4c9d3156073 # timeout=10
+[8mha:////4DMPOsa3O1enptECSsAfp9K1sWj0z6MQnwjMNxguO5GUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4BaFsEbaJCAsUmXbRSglHwAgbe0aI0VFdu6X01w56fbeAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Cs+yb9DLkZvr74SGg7Dn6uBVqBHQ7k+Q72pUeeUqInmAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4HqZtRgGca2OKor/L0kt5IZv5FK2ELFinv2rzCEF2H1ZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4FSGI0cV7w5xhqtYeelP9M6s2kze8KxxMEtGq94Llr7gAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4CngkOVgA770kahhTSyqKJO/EWkHIY2fIaQRCAAttt7AAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4Bp4XpSIVrwx6oST1p5Y64kTOXDx0X3Xsg3qauopU+pGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4F+Rq/p1pOF+lt1ScD7SeuCLSv1H+v9fVYOqcBC7ZNOMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4H+73ZssuHxU2qAbuvcbrkif7MJxTPKU16cfp2tCQdkbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4JIQ9WbcNYTGvEMYmOsi5CW7oxJkIZM3ROtxm3/WIDKgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4MdecQqTuotUJYztRAMJbJ16zwOml2bBQl7DScFbNBRfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4OLdFl7vA6cWhbrkikYuPfkqeDXOCe2Xk4KcqZq3RJ0uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4MEVNbI6ikfHDBXadcjA5Ri2tAQPyzqx/XpMER17qgVbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4Emh3jSNin9WSNf7QB27Don/RFoEk2F2rojo6cWy41ABAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Start SonarQube)
+[8mha:////4MY/6QKyE9klLgomZD1pEETxChIdnYrp9gX1tAnE/I1FAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] node
+Running on [8mha:////4JAhunBlQ6g8Ns7iXxD1obON28bnzHrn6CiyGbNyf6tWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4KiGA6JXdXxTgAGvgy/nnn60UjChFJ4NT/d+FnP4oGbIAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4Obv3umx7yFis4+RS+uNREZwtzfZ94OSVoiZDa5k7E7/AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision fca5dc463ba99503eaf16d6e58977f3b0074e1c8 (refs/remotes/origin/main)
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fca5dc463ba99503eaf16d6e58977f3b0074e1c8 # timeout=10
+Commit message: "modify Scan"
+[8mha:////4IyfR8LY7hYHtkzsZWPrEi9h2p8S8khw9nQ1MeojjCYsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD3tNtZjCAAAA[0m[Pipeline] withEnv
+[8mha:////4JWRTQSjWCULh5QW5RXJ551f+cE0bO4uFML0DzwQx8lyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4K5TvLLXfbraW0iA22GSUae+m3lqquJ+h6DwgFAqnTJuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] tool
+[8mha:////4JjzNec2kxuTf72M+g2pCvS6QA2iABC6hFgEwiQ8rucvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0bbeqGvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4PE2vtV00Fqn8V+4WAXk2QeEQXXEp86wx7Na1Pw9CPL3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYkBCiKlrlIUThCaEtNH/5SelnTgRV+MOtFRiwoNlW7Le6w1FZDgRO9FYbD3G2osu9G5KYiBur4EG0dBF1ISRghXKDoqMrZaqKFlYlOWwkrC2WAeKHl2CjWz0Q5dBoyvPiaftKCH35g5PyORETprTt4wM21tvIuGP8xcAY5cg3+1nO8zP4gNCISCewgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DoXG6L1KlQOCY7VuF4FRj3zc4nmxyhHc3P+g2lD67VgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4DfOGhzS2XK3xvKfEv/eGRSLpSQTZe1kFiHKH2YHjgOQAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] echo
+SonarQube Start
+[8mha:////4A9emJeoQEewI8AjK0FoBkWydW51sw8zEIqFklTVON/QAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeAtq90r4AAAA=[0m[Pipeline] sh
++ sudo docker ps --filter name=sonarqube
++ sudo docker start sonarqube
+sonarqube
+[8mha:////4E7fmvTtQTJr3q57Rn1c67964sZOqkodIHCiV4TtuCHKAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKClBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvKbXNb4AAAA=[0m[Pipeline] }
+[8mha:////4IUCZMyIwrieyzzSEJDSyPQhN9ekD7liTSPyL4AIJzTfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/hHxVIvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4N4GXIwKmF/Wpdqf5rEAoFr1GSVy2I81a7F7nqQfBKkkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/V0fYTvgAAAA==[0m[Pipeline] }
+[8mha:////4M0We2niCUV9kJ1Trzi0vtO7KBTn64tGChMDyf/31ULcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/B8msMvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4MRMSzrNvUYa3RTvqFbn3zexERV1V9rlZZm36YLWaaKMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w9RhFQuvgAAAA==[0m[Pipeline] }
+[8mha:////4JVTC8Gbks3T02XHzqAYuHtcEgHecjf+S7uWYe60MhzsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5P+Sq6w8SBgWovgAAAA==[0m[Pipeline] // node
+[8mha:////4K+POoWKIvzTJDPKbnIIzfR0BkjBpVRp85NAHxkTKTNKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wENhFD6vgAAAA==[0m[Pipeline] }
+[8mha:////4MLcQ0p1db0sytY+W/TlbqKgfD9pz8+fiO2+T+8M7vQiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISITpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP93b/2++AAAA[0m[Pipeline] // stage
+[8mha:////4PUn5RPEi1F+vaZAgyDTGoWeIeCSzNexCcqEdcI1X0U8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUlVgQYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8+2az7P6g0jsMX1wgAAAA==[0m[Pipeline] stage
+[8mha:////4BxO4n/B7DMt/T1SA30EiBOl0ZT8ocOVLUiddRTMGnSPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] { (Scan)
+[8mha:////4B5zSy4uN6bDM05Yf21h3c5BJETqKnT6yKy+wOUvFaylAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] node
+Running on [8mha:////4JAhunBlQ6g8Ns7iXxD1obON28bnzHrn6CiyGbNyf6tWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4C/E/JTfZGY8dV4UUKUD3eHi6Ph3z6niXunFD143coWSAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4AgSxXblBI5DR4NU0N05ApMbNxjRHVAnwSUHSEfZ+wGJAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+Checking out Revision fca5dc463ba99503eaf16d6e58977f3b0074e1c8 (refs/remotes/origin/main)
+Commit message: "modify Scan"
+[8mha:////4JF1yd7REsZ8l/v4fHs179cUT0LQgOIF0Z25eAZ/UFHeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0qVgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AIy697vCAAAA[0m[Pipeline] withEnv
+[8mha:////4DXIRuuZHVgleT5vWHdRlvl8/gzR9sMFlAk7z+0+q/0tAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] {
+[8mha:////4KxiUl/VcBmCD3ZefRvadEV1WLNLBvbIc49dsqVqG4D/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] tool
+[8mha:////4LByUhEAtFxXQFQPYAWryfq9g0MJaRuBC0zo1fIZsplfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHbImT7vgAAAA==[0m[Pipeline] envVarsForTool
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fca5dc463ba99503eaf16d6e58977f3b0074e1c8 # timeout=10
+[8mha:////4AqXuPYtWNgsWLyazlsCKsXp2bjysl+ItntmiUb2B5bMAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAcSAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0kNDtSwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4N/VJsN3PtSeV2fiQMHGeT92fTmxADjm1XwAUVjya+p7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] {
+[8mha:////4KbKbI0rvuru9BOxSQcObya7C2Z/3RigZhNhVu23nJOHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] echo
+Scan Start
+[8mha:////4DE0njklRGZtJprNdspwA5IQq12OvgyH1iQ+vOzDiFhMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6bAv6fCAAAA[0m[Pipeline] script
+[8mha:////4BxDK0LcFF6Avkp0Zpy8KlyIvysmexCwIrYWcyYLSPF2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAd9J1uLCAAAA[0m[Pipeline] {
+[8mha:////4D8Sv1gTPtSwrW/4Gn+Ac4ZFk/ObqsKxtvJEAGzRFMbHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonarqube1
+[8mha:////4DWoO4qZVDe37NG2CELYvpxqCOkNcsWz5A2F29Ff2uYhAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] {
+[8mha:////4NwWGE9A/PEcx/CQGfB9TQCcyv7Srt8ZI0Jk8wEbQ1TGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBkhu+A6+AAAA[0m[Pipeline] sh
++ mvn clean compile sonar:sonar
+[INFO] Scanning for projects...
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom
+Progress (1): 1.4/20 kBProgress (1): 2.8/20 kBProgress (1): 4.1/20 kBProgress (1): 5.5/20 kBProgress (1): 6.9/20 kBProgress (1): 8.3/20 kBProgress (1): 9.7/20 kBProgress (1): 11/20 kB Progress (1): 12/20 kBProgress (1): 14/20 kBProgress (1): 15/20 kBProgress (1): 16/20 kBProgress (1): 17/20 kBProgress (1): 19/20 kBProgress (1): 20 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom (20 kB at 120 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/plugins/maven-plugins/36/maven-plugins-36.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/plugins/maven-plugins/36/maven-plugins-36.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/36/maven-plugins-36.pom
+Progress (1): 1.4/9.9 kBProgress (1): 2.8/9.9 kBProgress (1): 4.1/9.9 kBProgress (1): 5.5/9.9 kBProgress (1): 6.9/9.9 kBProgress (1): 8.3/9.9 kBProgress (1): 9.7/9.9 kBProgress (1): 9.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/36/maven-plugins-36.pom (9.9 kB at 431 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/maven-parent/36/maven-parent-36.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/maven-parent/36/maven-parent-36.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom
+Progress (1): 16/45 kBProgress (1): 33/45 kBProgress (1): 45 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/36/maven-parent-36.pom (45 kB at 1.5 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/apache/26/apache-26.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/apache/26/apache-26.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom
+Progress (1): 16/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/26/apache-26.pom (21 kB at 1.9 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar
+Progress (1): 16/119 kBProgress (1): 33/119 kBProgress (1): 49/119 kBProgress (1): 66/119 kBProgress (1): 82/119 kBProgress (1): 98/119 kBProgress (1): 115/119 kBProgress (1): 119 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar (119 kB at 2.1 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Progress (1): 9.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom (9.8 kB at 983 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Progress (1): 11 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom (11 kB at 1.1 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/maven-parent/39/maven-parent-39.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/maven-parent/39/maven-parent-39.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/39/maven-parent-39.pom
+Progress (1): 16/48 kBProgress (1): 33/48 kBProgress (1): 48 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/39/maven-parent-39.pom (48 kB at 3.2 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/apache/29/apache-29.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/apache/29/apache-29.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/29/apache-29.pom
+Progress (1): 16/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/29/apache-29.pom (21 kB at 2.3 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Progress (1): 16/61 kBProgress (1): 33/61 kBProgress (1): 49/61 kBProgress (1): 61 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar (61 kB at 4.1 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/apache/maven/plugins/maven-metadata.xml
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/apache/maven/plugins/maven-metadata.xml
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/mojo/maven-metadata.xml
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/mojo/maven-metadata.xml
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml
+[WARNING] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:3.11.0.3922 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.11.0.3922: SonarQube plugin was moved to SonarSource organisation
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 2.3.1.BUILD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ spring-petclinic ---
+[INFO] Deleting /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] 
+[INFO] --- spring-javaformat:0.0.22:validate (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- jacoco:0.8.5:prepare-agent (default) @ spring-petclinic ---
+[INFO] argLine set to -javaagent:/home/azureuser/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/jacoco.exec
+[INFO] 
+[INFO] --- git-commit-id:3.0.1:revision (default) @ spring-petclinic ---
+[INFO] dotGitDirectory /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git
+[INFO] Collected git.build.user.name with value 
+[INFO] Collected git.build.user.email with value 
+[INFO] Using environment variable based branch name. CI_COMMIT_REF_NAME = null
+[INFO] Detected that running on CI environment, but using repository branch, no GIT_BRANCH detected.
+[INFO] Collected git.branch with value fca5dc463ba99503eaf16d6e58977f3b0074e1c8
+[INFO] --always = true
+[INFO] --dirty = -dirty
+[INFO] --abbrev = 7
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] evalCommit is [fca5dc463ba99503eaf16d6e58977f3b0074e1c8]
+[INFO] Collected git.commit.id.describe with value fca5dc4
+[INFO] Collected git.commit.id.describe-short with value fca5dc4
+[INFO] Collected git.commit.id with value fca5dc463ba99503eaf16d6e58977f3b0074e1c8
+[INFO] Collected git.commit.id.abbrev with value fca5dc4
+[INFO] Collected git.dirty with value false
+[INFO] Collected git.commit.user.name with value Juan Pedro Sanchez Mercado
+[INFO] Collected git.commit.user.email with value jpsanchez_2@hotmail.com
+[INFO] Collected git.commit.message.full with value modify Scan
+[INFO] Collected git.commit.message.short with value modify Scan
+[INFO] Collected git.commit.time with value 2024-05-21T08:32:40+0000
+[INFO] Collected git.remote.origin.url with value https://gitlab.com/ramo8221914/petclinik.git
+[INFO] Collected git.tags with value 
+[INFO] evalCommit is [fca5dc463ba99503eaf16d6e58977f3b0074e1c8]
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] Collected git.closest.tag.name with value 
+[INFO] evalCommit is [fca5dc463ba99503eaf16d6e58977f3b0074e1c8]
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] Collected git.closest.tag.commit.count with value 
+[INFO] Collected git.total.commit.count with value 129
+[ERROR] Failed to perform fetch
+org.eclipse.jgit.api.errors.TransportException: https://gitlab.com/ramo8221914/petclinik.git: Authentication is required but no CredentialsProvider has been registered
+    at org.eclipse.jgit.api.FetchCommand.call (FetchCommand.java:254)
+    at pl.project13.maven.git.JGitProvider.fetch (JGitProvider.java:352)
+    at pl.project13.maven.git.JGitProvider.getAheadBehind (JGitProvider.java:339)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$17 (GitDataProvider.java:174)
+    at pl.project13.maven.git.GitDataProvider.lambda$memoize$23 (GitDataProvider.java:272)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$18 (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitDataProvider.maybePut (GitDataProvider.java:255)
+    at pl.project13.maven.git.GitDataProvider.loadGitData (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitDataWithJGit (GitCommitIdMojo.java:604)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitData (GitCommitIdMojo.java:563)
+    at pl.project13.maven.git.GitCommitIdMojo.execute (GitCommitIdMojo.java:458)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: org.eclipse.jgit.errors.TransportException: https://gitlab.com/ramo8221914/petclinik.git: Authentication is required but no CredentialsProvider has been registered
+    at org.eclipse.jgit.transport.TransportHttp.connect (TransportHttp.java:537)
+    at org.eclipse.jgit.transport.TransportHttp.openFetch (TransportHttp.java:362)
+    at org.eclipse.jgit.transport.FetchProcess.executeImp (FetchProcess.java:138)
+    at org.eclipse.jgit.transport.FetchProcess.execute (FetchProcess.java:124)
+    at org.eclipse.jgit.transport.Transport.fetch (Transport.java:1271)
+    at org.eclipse.jgit.api.FetchCommand.call (FetchCommand.java:243)
+    at pl.project13.maven.git.JGitProvider.fetch (JGitProvider.java:352)
+    at pl.project13.maven.git.JGitProvider.getAheadBehind (JGitProvider.java:339)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$17 (GitDataProvider.java:174)
+    at pl.project13.maven.git.GitDataProvider.lambda$memoize$23 (GitDataProvider.java:272)
+    at pl.project13.maven.git.GitDataProvider.lambda$loadGitData$18 (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitDataProvider.maybePut (GitDataProvider.java:255)
+    at pl.project13.maven.git.GitDataProvider.loadGitData (GitDataProvider.java:175)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitDataWithJGit (GitCommitIdMojo.java:604)
+    at pl.project13.maven.git.GitCommitIdMojo.loadGitData (GitCommitIdMojo.java:563)
+    at pl.project13.maven.git.GitCommitIdMojo.execute (GitCommitIdMojo.java:458)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+[INFO] Collected git.local.branch.ahead with value NO_REMOTE
+[INFO] Collected git.local.branch.behind with value NO_REMOTE
+[INFO] Collected git.build.time with value 2024-05-21T08:33:35+0000
+[INFO] Collected git.build.version with value 2.3.1.BUILD-SNAPSHOT
+[INFO] Collected git.build.host with value Target3
+[INFO] Collected git.build.number with value 
+[INFO] Collected git.build.number.unique with value 
+[INFO] including property git.tags in results
+[INFO] including property git.build.version in results
+[INFO] including property git.branch in results
+[INFO] including property git.build.host in results
+[INFO] including property git.build.number in results
+[INFO] including property git.commit.id in results
+[INFO] including property git.commit.user.email in results
+[INFO] including property git.build.number.unique in results
+[INFO] including property git.local.branch.behind in results
+[INFO] including property git.build.user.name in results
+[INFO] including property git.dirty in results
+[INFO] including property git.closest.tag.commit.count in results
+[INFO] including property git.commit.user.name in results
+[INFO] including property git.commit.id.abbrev in results
+[INFO] including property git.commit.id.describe-short in results
+[INFO] including property git.total.commit.count in results
+[INFO] including property git.commit.id.describe in results
+[INFO] including property git.build.user.email in results
+[INFO] including property git.commit.message.short in results
+[INFO] including property git.closest.tag.name in results
+[INFO] including property git.local.branch.ahead in results
+[INFO] including property git.commit.time in results
+[INFO] including property git.build.time in results
+[INFO] including property git.commit.message.full in results
+[INFO] including property git.remote.origin.url in results
+[INFO] Writing properties file to [/home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/git.properties] (for module petclinic)...
+[INFO] 
+[INFO] --- spring-boot:2.3.1.RELEASE:build-info (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- wro4j:1.8.0:run (default) @ spring-petclinic ---
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/me/n4u/sass/sass-gems/maven-metadata.xml
+Downloading from spring-milestones: https://repo.spring.io/milestone/me/n4u/sass/sass-gems/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/me/n4u/sass/sass-gems/maven-metadata.xml
+[INFO] /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/src/main/less
+[INFO] Executing the mojo: 
+[INFO] Wro4j Model path: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/src/main/wro/wro.xml
+[INFO] targetGroups: null
+[INFO] minimize: true
+[INFO] ignoreMissingResources: null
+[INFO] parallelProcessing: false
+[INFO] buildDirectory: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] destinationFolder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] cssDestinationFolder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/static/resources/css
+[INFO] The following groups will be processed: [petclinic]
+[INFO] folder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/static/resources/css
+[INFO] processing group: petclinic.css
+[WARNING] Less warnings are:
+[WARNING] 10:1 Cannot link source map. Css result location is not know and could not be deduced from input less source..
+[INFO] file size: petclinic.css -> 152399 bytes
+[INFO] /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes/static/resources/css/petclinic.css (152399 bytes)
+[INFO] folder: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target
+[INFO] processing group: petclinic.js
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ spring-petclinic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 39 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ spring-petclinic ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/classes
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 2.3.1.BUILD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- sonar:3.11.0.3922:sonar (default-cli) @ spring-petclinic ---
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.pom (3.2 kB at 539 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus/8/plexus-8.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus/8/plexus-8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom
+Progress (1): 16/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/8/plexus-8.pom (25 kB at 5.1 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+Progress (1): 8.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom (8.0 kB at 885 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.pom
+Progress (1): 4.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.pom (4.4 kB at 736 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.pom
+Progress (1): 5.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.pom (5.2 kB at 1.0 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.16.3.1081/sonar-scanner-api-parent-2.16.3.1081.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.16.3.1081/sonar-scanner-api-parent-2.16.3.1081.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.16.3.1081/sonar-scanner-api-parent-2.16.3.1081.pom
+Progress (1): 4.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.16.3.1081/sonar-scanner-api-parent-2.16.3.1081.pom (4.8 kB at 692 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/sonarsource/parent/parent/60.0.52/parent-60.0.52.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/sonarsource/parent/parent/60.0.52/parent-60.0.52.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/60.0.52/parent-60.0.52.pom
+Progress (1): 16/32 kBProgress (1): 32 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/parent/parent/60.0.52/parent-60.0.52.pom (32 kB at 2.9 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+Progress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 2.5 MB/s)
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.jar
+Downloading from spring-snapshots: https://repo.spring.io/snapshot/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar
+Progress (1): 16/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar (24 kB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.jar
+Progress (1): 16/264 kBProgress (1): 33/264 kBProgress (1): 49/264 kBProgress (1): 66/264 kBProgress (1): 82/264 kB                       Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+Progress (1): 98/264 kBProgress (1): 115/264 kBProgress (1): 131/264 kBProgress (1): 147/264 kBProgress (2): 147/264 kB | 16/625 kBProgress (3): 147/264 kB | 16/625 kB | 1.4/13 kBProgress (3): 147/264 kB | 16/625 kB | 2.8/13 kBProgress (3): 147/264 kB | 16/625 kB | 4.1/13 kBProgress (3): 147/264 kB | 16/625 kB | 5.5/13 kBProgress (3): 147/264 kB | 16/625 kB | 6.9/13 kBProgress (3): 147/264 kB | 16/625 kB | 8.3/13 kBProgress (3): 147/264 kB | 16/625 kB | 9.7/13 kBProgress (3): 147/264 kB | 16/625 kB | 11/13 kB Progress (3): 147/264 kB | 16/625 kB | 12/13 kBProgress (3): 147/264 kB | 16/625 kB | 13 kB                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar (13 kB at 289 kB/s)
+Progress (2): 147/264 kB | 33/625 kBProgress (2): 147/264 kB | 49/625 kBProgress (2): 147/264 kB | 66/625 kBProgress (3): 147/264 kB | 66/625 kB | 16/284 kBProgress (3): 147/264 kB | 66/625 kB | 33/284 kBProgress (3): 147/264 kB | 66/625 kB | 49/284 kBProgress (3): 164/264 kB | 66/625 kB | 49/284 kBProgress (3): 180/264 kB | 66/625 kB | 49/284 kBProgress (3): 197/264 kB | 66/625 kB | 49/284 kBProgress (3): 213/264 kB | 66/625 kB | 49/284 kBProgress (3): 229/264 kB | 66/625 kB | 49/284 kBProgress (3): 246/264 kB | 66/625 kB | 49/284 kBProgress (3): 262/264 kB | 66/625 kB | 49/284 kBProgress (3): 264 kB | 66/625 kB | 49/284 kB    Progress (3): 264 kB | 82/625 kB | 49/284 kBProgress (3): 264 kB | 98/625 kB | 49/284 kBProgress (3): 264 kB | 115/625 kB | 49/284 kBProgress (3): 264 kB | 131/625 kB | 49/284 kBProgress (3): 264 kB | 147/625 kB | 49/284 kBProgress (3): 264 kB | 147/625 kB | 66/284 kBProgress (3): 264 kB | 147/625 kB | 82/284 kBProgress (3): 264 kB | 147/625 kB | 98/284 kBProgress (3): 264 kB | 147/625 kB | 115/284 kBProgress (3): 264 kB | 164/625 kB | 115/284 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.jar (264 kB at 3.0 MB/s)
+Progress (2): 164/625 kB | 131/284 kBProgress (2): 164/625 kB | 147/284 kBProgress (2): 164/625 kB | 164/284 kBProgress (2): 180/625 kB | 164/284 kBProgress (2): 197/625 kB | 164/284 kBProgress (2): 213/625 kB | 164/284 kBProgress (2): 229/625 kB | 164/284 kBProgress (2): 246/625 kB | 164/284 kBProgress (2): 246/625 kB | 180/284 kBProgress (2): 246/625 kB | 197/284 kBProgress (2): 246/625 kB | 213/284 kBProgress (2): 246/625 kB | 229/284 kBProgress (2): 246/625 kB | 246/284 kBProgress (2): 246/625 kB | 256/284 kBProgress (2): 262/625 kB | 256/284 kBProgress (2): 279/625 kB | 256/284 kBProgress (2): 295/625 kB | 256/284 kBProgress (2): 311/625 kB | 256/284 kBProgress (2): 328/625 kB | 256/284 kBProgress (2): 344/625 kB | 256/284 kBProgress (2): 360/625 kB | 256/284 kBProgress (2): 377/625 kB | 256/284 kBProgress (2): 377/625 kB | 272/284 kBProgress (2): 377/625 kB | 284 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (284 kB at 2.7 MB/s)
+Progress (1): 393/625 kBProgress (1): 410/625 kBProgress (1): 426/625 kBProgress (1): 442/625 kBProgress (1): 459/625 kBProgress (1): 475/625 kBProgress (1): 492/625 kBProgress (1): 508/625 kBProgress (1): 524/625 kBProgress (1): 541/625 kBProgress (1): 557/625 kBProgress (1): 573/625 kBProgress (1): 585/625 kBProgress (1): 601/625 kBProgress (1): 617/625 kBProgress (1): 625 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonarsource/scanner/api/sonar-scanner-api/2.16.3.1081/sonar-scanner-api-2.16.3.1081.jar (625 kB at 4.7 MB/s)
+[INFO] 08:33:51.792 Java 17.0.10 Private Build (64-bit)
+[INFO] 08:33:51.796 Linux 6.5.0-1021-azure (amd64)
+[INFO] 08:33:51.864 User cache: /home/azureuser/.sonar/cache
+[INFO] 08:33:52.848 Communicating with SonarQube Server 10.5.1.90531
+[INFO] 08:33:52.881 Default locale: "en", source code encoding: "UTF-8"
+[INFO] 08:33:53.774 Load global settings
+[INFO] 08:33:54.167 Load global settings (done) | time=393ms
+[INFO] 08:33:54.202 Server id: 147B411E-AY-WmIO_8fKYE-MpiNZA
+[INFO] 08:33:54.211 User cache: /home/azureuser/.sonar/cache
+[INFO] 08:33:54.228 Loading required plugins
+[INFO] 08:33:54.229 Load plugins index
+[INFO] 08:33:54.504 Load plugins index (done) | time=275ms
+[INFO] 08:33:54.504 Load/download plugins
+[INFO] 08:33:55.628 Load/download plugins (done) | time=1124ms
+[INFO] 08:33:56.274 Process project properties
+[INFO] 08:33:56.292 Process project properties (done) | time=18ms
+[INFO] 08:33:56.303 Project key: org.springframework.samples:spring-petclinic
+[INFO] 08:33:56.304 Base dir: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[INFO] 08:33:56.304 Working dir: /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/sonar
+[INFO] 08:33:56.326 Load project settings for component key: 'org.springframework.samples:spring-petclinic'
+[INFO] 08:33:56.457 Load quality profiles
+[INFO] 08:33:57.185 Load quality profiles (done) | time=728ms
+[INFO] 08:33:57.253 Auto-configuring with CI 'Jenkins'
+[INFO] 08:33:57.378 Load active rules
+[INFO] 08:34:15.058 Load active rules (done) | time=17680ms
+[INFO] 08:34:15.083 Load analysis cache
+[INFO] 08:34:15.112 Load analysis cache (404) | time=29ms
+[INFO] 08:34:15.369 Preprocessing files...
+[INFO] 08:34:16.003 2 languages detected in 37 preprocessed files
+[INFO] 08:34:16.006 0 files ignored because of scm ignore settings
+[INFO] 08:34:16.018 Loading plugins for detected languages
+[INFO] 08:34:16.019 Load/download plugins
+[INFO] 08:34:16.407 Load/download plugins (done) | time=388ms
+[INFO] 08:34:16.621 Inconsistent constructor declaration on bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@b4f7e1c-org.sonar.scanner.issue.IssueFilters': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.sonar.scanner.issue.IssueFilters(org.sonar.api.batch.fs.internal.DefaultInputProject)
+[INFO] 08:34:16.660 Load project repositories
+[INFO] 08:34:16.685 Load project repositories (done) | time=25ms
+[INFO] 08:34:16.773 Indexing files...
+[INFO] 08:34:16.780 Project configuration:
+[INFO] 08:34:16.816 37 files indexed
+[INFO] 08:34:16.818 Quality profile for java: Sonar way
+[INFO] 08:34:16.818 Quality profile for xml: Sonar way
+[INFO] 08:34:16.818 ------------- Run sensors on module petclinic
+[INFO] 08:34:16.967 Load metrics repository
+[INFO] 08:34:17.060 Load metrics repository (done) | time=93ms
+[INFO] 08:34:19.045 Sensor JavaSensor [java]
+[INFO] 08:34:19.056 Configured Java source version (sonar.java.source): 8, preview features enabled (sonar.java.enablePreview): false
+[INFO] 08:34:19.113 Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[INFO] 08:34:19.117 Using ECJ batch to parse 25 Main java source files with batch size 43 KB.
+[INFO] 08:34:19.608 Starting batch processing.
+[INFO] 08:34:20.505 The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[INFO] 08:34:23.984 100% analyzed
+[INFO] 08:34:23.984 Batch processing: Done.
+[INFO] 08:34:23.988 Did not optimize analysis for any files, performed a full analysis for all 25 files.
+[INFO] 08:34:23.990 Using ECJ batch to parse 11 Test java source files with batch size 43 KB.
+[INFO] 08:34:24.013 Starting batch processing.
+[INFO] 08:34:25.502 100% analyzed
+[INFO] 08:34:25.502 Batch processing: Done.
+[INFO] 08:34:25.506 Did not optimize analysis for any files, performed a full analysis for all 11 files.
+[INFO] 08:34:25.506 No "Generated" source files to scan.
+[INFO] 08:34:25.506 Sensor JavaSensor [java] (done) | time=6461ms
+[INFO] 08:34:25.506 Sensor SurefireSensor [java]
+[INFO] 08:34:25.508 parsing [/home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/target/surefire-reports]
+[INFO] 08:34:25.509 Sensor SurefireSensor [java] (done) | time=3ms
+[INFO] 08:34:25.509 Sensor XML Sensor [xml]
+[INFO] 08:34:25.527 1 source file to be analyzed
+[INFO] 08:34:25.986 1/1 source file has been analyzed
+[INFO] 08:34:25.986 Sensor XML Sensor [xml] (done) | time=477ms
+[INFO] 08:34:25.986 Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 08:34:25.987 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] 08:34:25.992 No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] 08:34:25.992 Sensor JaCoCo XML Report Importer [jacoco] (done) | time=6ms
+[INFO] 08:34:25.992 Sensor IaC Docker Sensor [iac]
+[INFO] 08:34:26.004 0 source files to be analyzed
+[INFO] 08:34:26.148 0/0 source files have been analyzed
+[INFO] 08:34:26.149 Sensor IaC Docker Sensor [iac] (done) | time=157ms
+[INFO] 08:34:26.149 Sensor TextAndSecretsSensor [text]
+[INFO] 08:34:26.149 Available processors: 1
+[INFO] 08:34:26.149 Using 1 thread for analysis.
+[INFO] 08:34:27.005 37 source files to be analyzed
+[INFO] 08:34:27.681 37/37 source files have been analyzed
+[INFO] 08:34:27.682 Sensor TextAndSecretsSensor [text] (done) | time=1533ms
+[INFO] 08:34:27.686 ------------- Run sensors on project
+[INFO] 08:34:27.762 Sensor Zero Coverage Sensor
+[INFO] 08:34:27.783 Sensor Zero Coverage Sensor (done) | time=20ms
+[INFO] 08:34:27.783 Sensor Java CPD Block Indexer
+[INFO] 08:34:27.862 Sensor Java CPD Block Indexer (done) | time=79ms
+[INFO] 08:34:27.871 SCM Publisher SCM provider for this project is: git
+[INFO] 08:34:27.873 SCM Publisher 37 source files to be analyzed
+[INFO] 08:34:28.390 SCM Publisher 37/37 source files have been analyzed (done) | time=513ms
+[INFO] 08:34:28.402 CPD Executor 12 files had no CPD blocks
+[INFO] 08:34:28.402 CPD Executor Calculating CPD for 13 files
+[INFO] 08:34:28.422 CPD Executor CPD calculation finished (done) | time=18ms
+[INFO] 08:34:28.427 SCM revision ID 'fca5dc463ba99503eaf16d6e58977f3b0074e1c8'
+[INFO] 08:34:28.642 Analysis report generated in 192ms, dir size=369.0 kB
+[INFO] 08:34:28.756 Analysis report compressed in 113ms, zip size=127.2 kB
+[INFO] 08:34:29.860 Analysis report uploaded in 1101ms
+[INFO] 08:34:29.864 ANALYSIS SUCCESSFUL, you can find the results at: http://52.168.88.189:9000/dashboard?id=org.springframework.samples%3Aspring-petclinic
+[INFO] 08:34:29.864 Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] 08:34:29.864 More about the report processing at http://52.168.88.189:9000/api/ce/task?id=6300358b-77ef-4037-981d-364d9160b9b1
+[INFO] 08:34:29.940 Analysis total time: 34.161 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:04 min
+[INFO] Finished at: 2024-05-21T08:34:29Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4LR0v+nEtVbtUMjSpL/AsdocTjJE8vL4Upl2DhMsYkRbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/Zh+YO+AAAA[0m[Pipeline] }
+[8mha:////4NeJOFQXtElkK0ATEz6ITPoikl16ZKQNMr+EooetfLiXAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpXAcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rf6eOs0b4AAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4Mjys4Npf5f/z6KuLz2E98OKjlqZmWxgwpgetAu8WAjgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCATQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wEqmEywvgAAAA==[0m[Pipeline] }
+[8mha:////4EhOAon733fS7hHCCXHWwAfyI/VYFTlgEdR3wECWx+DWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8s3nTlvgAAAA==[0m[Pipeline] // script
+[8mha:////4AuexGASHN+BiSr7jZ0CgqB+hPPzphKzb51azl4ijptgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w+uze6NvgAAAA==[0m[Pipeline] }
+[8mha:////4MiD1CeZuP8ecT6Gz7UchC1KJOHD5SQsNiaPmc7uCzEmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w+dLrUxvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4O7kx2Ys8NCL3z7TGdOUfhj4m6Jm3l8SfvFoJ8TsT6LtAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSRFAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AHHus+rvgAAAA==[0m[Pipeline] }
+[8mha:////4AlGkQiRKNK0qFCAAdnD9RXOdMFTTLS3lldUFhEE0GBmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGV9yLWvP/RZlBe+AAAA[0m[Pipeline] // withEnv
+[8mha:////4GexZfDjTurMiMl1CMa553CYp7p2vtYDq2Sjo7xPkcUhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpojSIitZKwwtMbIwT686xLyQVL+Jr/AGLSFRssdrZZl5v2KYIJ4pW9AYHh6lzIvjJ5iVmisPN0yx6uoqOMJE3ojVzS9qcV2yJDawpSthI2BnsPCWHlmEve/VQlVdoqwvH/B0llE6P8IRCZjOryF9YIhzuk06EP89fASwhMJRNk6uuP3ZKDn++AAAA[0m[Pipeline] }
+[8mha:////4MRATxzCuocjvojxnAQloiB6hLTrhxcWccnHLBGq1PHuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9wDDYqvgAAAA==[0m[Pipeline] // node
+[8mha:////4Oo1nV8w34KhLnDTteJ5G5qfU85wOS2fBoWNGuJEljv1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+0Ou3fYDM45nrL4AAAA=[0m[Pipeline] }
+[8mha:////4HDjPVCzCXx+dPpcQuCu0BRbPHjgZ1UkZt2edkLpLWb9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJISEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+0Ou3fYDLAwy/r4AAAA=[0m[Pipeline] // stage
+[8mha:////4IXAtmCOsM09+QwZShaymfqYGmNu/13yT0MTxDohgjXYAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJoRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQEbeXEPwgAAAA==[0m[Pipeline] stage
+[8mha:////4OAZ9rerlZ34c8+jc5ifN9PCiFlxbdOP9Tz9Ggpxv+w7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] { (Quality gate)
+[8mha:////4Ku7Qxe1TILE4iMeM4ndPDgx4ROVv0nKawQr+ypzMRBwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD7WcRxfCAAAA[0m[Pipeline] node
+Running on [8mha:////4JAhunBlQ6g8Ns7iXxD1obON28bnzHrn6CiyGbNyf6tWAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate
+[8mha:////4JMQvTSMBp9E/LspB6OFLE+sNRxICvyswDr5G81/JrzjAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgoEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfAARKflFwgAAAA==[0m[Pipeline] {
+[8mha:////4BSyhqnf34PwA2M86//gWlSIYFvEApEoIvSQtvwavNFgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAE/wUw2vgAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential e818e044-5208-4164-a7df-40892c364cd7
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Petclinic_Sonarqube_QualityGate/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials GitLab credential
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision fca5dc463ba99503eaf16d6e58977f3b0074e1c8 (refs/remotes/origin/main)
+Commit message: "modify Scan"
+[8mha:////4Cg4PaufMB3YWhKAgomR0NeAAjA2R2SK5+k3R5ifs/DpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIgBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADMFS5SwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4AGyjG5GwVyj9u4Oza4hK7MKGz6lQzAYH5kyk1m5oU2YAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxASGtDzzCAAAA[0m[Pipeline] {
+[8mha:////4DHn6PYxJ3wXNDZPb7GVi6dRrT9CgNHEbSboPGS3ti+KAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSkQJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fW71ZT74AAAA=[0m[Pipeline] tool
+[8mha:////4IRnS2xd7zzzz3UPzEEj8Mejiw99OotleSS5TdWpNGvZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBpShwci+AAAA[0m[Pipeline] envVarsForTool
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fca5dc463ba99503eaf16d6e58977f3b0074e1c8 # timeout=10
+[8mha:////4IrONmahkpwrZg+KVo7AgnEWykqLkhho1Sg3xCNJ7qShAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAfV5u1TCAAAA[0m[Pipeline] withEnv
+[8mha:////4CL8SjAZYxFzeofd7BhaUo8QInwNvAya2rQWNr/xnv8TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUDRDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrNxKsBBbCAAAA[0m[Pipeline] {
+[8mha:////4Ch/3OViUrG12WXHUYl6n4wdmavADsNsSWFnFhZCJ4ZQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBnZ6r6i+AAAA[0m[Pipeline] echo
+Quality gate Start
+[8mha:////4ETM/lEI5EC/eUfvxOMovx5W1WyIgLx0WLSgnsOhqQl1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN7UpgoO+AAAA[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task '6300358b-77ef-4037-981d-364d9160b9b1' on server 'sonarqube1'
+SonarQube task '6300358b-77ef-4037-981d-364d9160b9b1' status is 'IN_PROGRESS'
+SonarQube task '6300358b-77ef-4037-981d-364d9160b9b1' status is 'SUCCESS'
+SonarQube task '6300358b-77ef-4037-981d-364d9160b9b1' completed. Quality gate is 'OK'
+[8mha:////4OVmQlS/OknSIz0Tsf+1Jhser/SQ9uoCgpbaNAyRumgoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgGNKyTUvgAAAA==[0m[Pipeline] }
+[8mha:////4FqhtX1CIS+KP8j6hell2N1T7sTKY56N2OKSeiRovjsaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIAFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9ev2U3vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4AFWA+qgTlaC38UDLCCDuF4SIfLdXQAYb8v3cUxPEUksAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8ZFQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw9qcYZsvgAAAA==[0m[Pipeline] }
+[8mha:////4I+OjHSXbO6ZSkFD0yTivhnPq4NNReW6QbMgo8plke5lAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8ZFQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w9+UhtzvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4P9d8KZNHHVrjGfsPlNo1GpLw3ou645fYuNbcfc7/WjYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpKIKEqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkF5qHPV+w/uJCRRvgAAAA==[0m[Pipeline] }
+[8mha:////4GsN/qo8Ep07LJ5t4DMEsuIerpo2TrEfCzFWgmXi59tlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0RAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ17kO+w+tpnXXvgAAAA==[0m[Pipeline] // node
+[8mha:////4D0+JxuefDI1DTTD8Gnv087y3rmrjUBQW2IsNCHVO9NUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKkAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wGyJCCFvgAAAA==[0m[Pipeline] }
+[8mha:////4L1DxKZQGvFkf24/RH59jl6WZvAjfRSqiDWnagmyJRMRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSDiFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP1hOX3O+AAAA[0m[Pipeline] // stage
+[8mha:////4AxSkuCrxqWnCpNXubffIAaHbBrCPQawCMMxSw1VTzcgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRyghR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB9+ChZe+AAAA[0m[Pipeline] }
+[8mha:////4AgLfhxYZigCwpuiK/98pjAuXtb6NaT7lg/9dVLdQqg/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqEAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDLtd2/wHnwBZmvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4B3uDbn27DGYYk6WVF57LvLtVthnzBjAoJTGs1D9/mLXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygP+1x1/QHmq5bUvgAAAA==[0m[Pipeline] }
+[8mha:////4BRQH54Zima9Qyo3ldw7+cS/+X/5c514HQnpzDo95H0CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEg1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w/Iq5S+vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4PZu3mF4Hu5sXupFyp7nVXVkDmHBvg7Fx62L1zUKv6GqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpoECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPmCb29r0AAAA=[0m[Pipeline] }
+[8mha:////4KFK1wWIatUqEFZqu2vm6JNYl1q6HC8Ot42WmWmde7rmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/vBNn2A+vJMi+9AAAA[0m[Pipeline] // node
+[8mha:////4HcetV1VyRk+TPSJSUNfNhO6ZLCgewGMvYgIR38sAz0tAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AM3QVWW9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

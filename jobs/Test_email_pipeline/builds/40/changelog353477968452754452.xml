@@ -1,0 +1,9 @@
+commit 9fe96ac762a550597c902a306792e45b36069a81
+tree 18bcd8703f611e823a8aa28dcd64bebe44d82f71
+parent ae9bbbc653ebc5f6cfea8dcde4f89376291b6a2b
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:23:20 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 11:23:20 +0000
+
+    copy reports in workspace
+
+:100644 100644 8f911d6c56d1c4225b9a5f0cf558b15d47b4914e 091b128a2bd16b71cd4f974fc1ae2fd70399b2bc M	Jenkinsfile_Send_Email

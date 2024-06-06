@@ -1,0 +1,31 @@
+Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Running as SYSTEM
+Building remotely on [8mha:////4IlZ+qRcSdwjQtg303uEZW68J6tEHqD4iLI0uGQa/L07AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/ZDEovTUEkMAhHDLL8YAAAA=[0mTarget1 (target1) in workspace /home/azureuser/workspace/test_email
+[test_email] $ /bin/sh -xe /tmp/jenkins4106885094241323154.sh
+/tmp/jenkins4106885094241323154.sh: 3: Syntax error: newline unexpected
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: jpsg9868@gmail.com
+ERROR: 530-5.7.0 Authentication Required. For more information, go to
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError d75a77b69052e-43e2ebc82e2sm89778961cf.79 - gsmtp
+
+org.eclipse.angus.mail.smtp.SMTPSendFailedException: 530-5.7.0 Authentication Required. For more information, go to
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError d75a77b69052e-43e2ebc82e2sm89778961cf.79 - gsmtp
+
+	at org.eclipse.angus.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2407)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1812)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1290)
+	at jakarta.mail.Transport.send0(Transport.java:233)
+	at jakarta.mail.Transport.send(Transport.java:102)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:176)
+	at hudson.tasks.Mailer.perform(Mailer.java:139)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1917)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

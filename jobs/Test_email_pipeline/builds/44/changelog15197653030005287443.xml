@@ -1,0 +1,36 @@
+commit 73512d19ef5e02bf17e5e7ae48dcdf9a81e1d5ac
+tree 060f98408bcbc1d6d77db1b2b3b11ff8d1d318c0
+parent 80d09287b4ab2212bcbbff42b50d8c56a25b5bb4
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-30 14:48:19 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-30 14:48:19 +0000
+
+    modify Docker Push pwd
+
+:100644 100644 4e8a039ed3bac0dbf5ce2d1a08900c0ac94d742d c61179dcfb337dde028a8f733ce4d1cdcf1f9da0 M	Jenkinsfile
+commit 80d09287b4ab2212bcbbff42b50d8c56a25b5bb4
+tree 4f2969688302378d9c80f64bb93c7c051f1878be
+parent b6905172e393d0985373eb2306312b8ca473cc71
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 13:10:20 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 13:10:20 +0000
+
+    modify title
+
+:100644 100644 d3810ecfa70cd25be9c47793841bea62eca747fa 134e687fd2cf5ceb1af24136432615008990224d M	src/main/resources/templates/owners/findOwners.html
+commit b6905172e393d0985373eb2306312b8ca473cc71
+tree 29212fb934baff4047588745ff34f424b6736333
+parent 9035ce7adbc0367b112e9658c2b82a6f44d31d45
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 13:08:32 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 13:08:32 +0000
+
+    modify title
+
+:100644 100644 134e687fd2cf5ceb1af24136432615008990224d d3810ecfa70cd25be9c47793841bea62eca747fa M	src/main/resources/templates/owners/findOwners.html
+commit 9035ce7adbc0367b112e9658c2b82a6f44d31d45
+tree 4f2969688302378d9c80f64bb93c7c051f1878be
+parent 8d67b1b1fb566cf8be4dcafddf3464c3dc9c4769
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 13:06:03 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-28 13:06:03 +0000
+
+    modify stage send reports
+
+:100644 100644 3ee75c70187d139937ac62feee4ee1ed87814af5 831f1f31ab2a3de54a23aead419fb095c269b7de M	Jenkinsfile2

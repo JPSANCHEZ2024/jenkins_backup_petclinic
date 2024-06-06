@@ -1,0 +1,47 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<scriptApproval plugin="script-security@1336.vf33a_a_9863911">
+  <approvedScriptHashes/>
+  <approvedSignatures/>
+  <aclApprovedSignatures/>
+  <approvedClasspathEntries/>
+  <pendingScripts>
+    <pendingScript>
+      <context>
+        <user>jean-pierre</user>
+        <item>send_email_pipeline</item>
+        <key>send_email_pipeline</key>
+      </context>
+      <script>pipeline {
+    agent { label &apos;target3&apos; }
+
+    stages {
+        stage(&apos;Send Reports by email&apos;) {
+            steps {
+                emailext attachmentsPattern: &apos;test.txt&apos;, body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;, subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;, to: &apos;jpsg9868@gmail.com&apos;
+               //mail bcc: &apos;&apos;, body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;, cc: &apos;&apos;, from: &apos;&apos;, replyTo: &apos;&apos;, subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;, to: &apos;jpsg9868@gmail.com&apos; 
+               //emailext (
+                //     body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;,
+                //   subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;,
+                //   to: &apos;jpsg9868@gmail.com&apos;)
+                
+                // attachmentsPattern: &apos;report_jmeter.jtl, report_owasp_zap.xml, report-task.txt&apos;,
+                
+                
+                
+                //emailext(
+                //    body: &apos;Attached are the reports of SonarQube, JMeter and OWASP-ZAP.&apos;,
+                //    subject: &apos;Reports: SonarQube, JMeter and OWASP-ZAP&apos;,
+                //    to: &apos;jpsg9868@gmail.com&apos;,
+                    //attachmentsPattern: &apos;report_jmeter.jtl, report_owasp_zap.xml, report-task.txt&apos;
+                //)
+            }
+        }
+    }
+}
+</script>
+      <language>groovy</language>
+    </pendingScript>
+  </pendingScripts>
+  <pendingSignatures/>
+  <pendingClasspathEntries/>
+</scriptApproval>

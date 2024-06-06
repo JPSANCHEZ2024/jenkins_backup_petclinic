@@ -1,0 +1,34 @@
+Started by user [8mha:////4JJYE4dedE8uqHJc1DA3nSM4JN7dV2guEB3ON2mX4UXjAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Running as SYSTEM
+Building remotely on [8mha:////4IlZ+qRcSdwjQtg303uEZW68J6tEHqD4iLI0uGQa/L07AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/ZDEovTUEkMAhHDLL8YAAAA=[0mTarget1 (target1) in workspace /home/azureuser/workspace/test_email
+[test_email] $ /bin/sh -xe /tmp/jenkins14900252821624901738.sh
+/tmp/jenkins14900252821624901738.sh: 3: Syntax error: newline unexpected
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: jpsg9868@gmail.com
+ERROR: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-43e1fdefc89sm108427331cf.61 - gsmtp
+
+jakarta.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-43e1fdefc89sm108427331cf.61 - gsmtp
+
+	at org.eclipse.angus.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:954)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:865)
+	at org.eclipse.angus.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:769)
+	at jakarta.mail.Service.connect(Service.java:367)
+	at jakarta.mail.Service.connect(Service.java:225)
+	at jakarta.mail.Service.connect(Service.java:174)
+	at jakarta.mail.Transport.send0(Transport.java:232)
+	at jakarta.mail.Transport.send(Transport.java:102)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:176)
+	at hudson.tasks.Mailer.perform(Mailer.java:139)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:767)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:711)
+	at hudson.model.Run.execute(Run.java:1917)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE
